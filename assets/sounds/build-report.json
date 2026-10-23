@@ -1,0 +1,710 @@
+[
+ {
+  "id": "amb.wind",
+  "n": 1,
+  "maxTp": -7.44,
+  "ms": 2076
+ },
+ {
+  "id": "amb.air",
+  "n": 1,
+  "maxTp": -6.69,
+  "ms": 2783
+ },
+ {
+  "id": "amb.trees",
+  "n": 1,
+  "maxTp": -3.6,
+  "ms": 1222
+ },
+ {
+  "id": "amb.candle",
+  "n": 1,
+  "maxTp": -3.41,
+  "ms": 260
+ },
+ {
+  "id": "amb.fire",
+  "n": 1,
+  "maxTp": -2.46,
+  "ms": 398
+ },
+ {
+  "id": "amb.hum",
+  "n": 1,
+  "maxTp": -13.56,
+  "ms": 385
+ },
+ {
+  "id": "amb.coil",
+  "n": 1,
+  "maxTp": -14.29,
+  "ms": 307
+ },
+ {
+  "id": "amb.spirit",
+  "n": 1,
+  "maxTp": -14.26,
+  "ms": 32497
+ },
+ {
+  "id": "rain.far",
+  "n": 1,
+  "maxTp": -3.49,
+  "ms": 750
+ },
+ {
+  "id": "rain.near",
+  "n": 1,
+  "maxTp": -2.71,
+  "ms": 816
+ },
+ {
+  "id": "rain.leaves",
+  "n": 1,
+  "maxTp": -1.55,
+  "ms": 555
+ },
+ {
+  "id": "rain.stone",
+  "n": 1,
+  "maxTp": -10.04,
+  "ms": 414
+ },
+ {
+  "id": "rain.metal",
+  "n": 1,
+  "maxTp": -2.82,
+  "ms": 943
+ },
+ {
+  "id": "rain.puddle",
+  "n": 1,
+  "maxTp": -3.37,
+  "ms": 350
+ },
+ {
+  "id": "rain.heavy",
+  "n": 1,
+  "maxTp": -3.33,
+  "ms": 758
+ },
+ {
+  "id": "rain.drips",
+  "n": 1,
+  "maxTp": -6.01,
+  "ms": 715
+ },
+ {
+  "id": "thunder.far",
+  "n": 5,
+  "maxTp": -5.62,
+  "ms": 1547
+ },
+ {
+  "id": "thunder.mid",
+  "n": 2,
+  "maxTp": -3.61,
+  "ms": 537
+ },
+ {
+  "id": "thunder.close",
+  "n": 2,
+  "maxTp": -6.7,
+  "ms": 730
+ },
+ {
+  "id": "amb.creak",
+  "n": 6,
+  "maxTp": -3.43,
+  "ms": 585
+ },
+ {
+  "id": "amb.rattle",
+  "n": 4,
+  "maxTp": -3.11,
+  "ms": 340
+ },
+ {
+  "id": "amb.settle",
+  "n": 7,
+  "maxTp": -3.81,
+  "ms": 306
+ },
+ {
+  "id": "amb.branch",
+  "n": 4,
+  "maxTp": -2.87,
+  "ms": 151
+ },
+ {
+  "id": "amb.crow",
+  "n": 6,
+  "maxTp": -5.05,
+  "ms": 197
+ },
+ {
+  "id": "amb.owl",
+  "n": 5,
+  "maxTp": -11.4,
+  "ms": 582
+ },
+ {
+  "id": "amb.batwings",
+  "n": 4,
+  "maxTp": -2.91,
+  "ms": 272
+ },
+ {
+  "id": "amb.batsqueak",
+  "n": 5,
+  "maxTp": -3.42,
+  "ms": 917
+ },
+ {
+  "id": "step.stone",
+  "n": 12,
+  "maxTp": -3.49,
+  "ms": 332
+ },
+ {
+  "id": "step.soil",
+  "n": 10,
+  "maxTp": -2.81,
+  "ms": 336
+ },
+ {
+  "id": "step.grass",
+  "n": 6,
+  "maxTp": -3.35,
+  "ms": 175
+ },
+ {
+  "id": "step.scuff",
+  "n": 5,
+  "maxTp": -3.04,
+  "ms": 109
+ },
+ {
+  "id": "step.brush",
+  "n": 5,
+  "maxTp": -3.47,
+  "ms": 286
+ },
+ {
+  "id": "step.weight",
+  "n": 5,
+  "maxTp": -4.26,
+  "ms": 770
+ },
+ {
+  "id": "step.wet",
+  "n": 5,
+  "maxTp": -3.1,
+  "ms": 1168
+ },
+ {
+  "id": "cloth.move",
+  "n": 6,
+  "maxTp": -3.51,
+  "ms": 216
+ },
+ {
+  "id": "cloth.big",
+  "n": 4,
+  "maxTp": -3.41,
+  "ms": 243
+ },
+ {
+  "id": "leather",
+  "n": 5,
+  "maxTp": -3.41,
+  "ms": 196
+ },
+ {
+  "id": "hardware",
+  "n": 4,
+  "maxTp": -2.67,
+  "ms": 169
+ },
+ {
+  "id": "body.impact",
+  "n": 5,
+  "maxTp": -3.15,
+  "ms": 408
+ },
+ {
+  "id": "breath.in",
+  "n": 5,
+  "maxTp": -11.19,
+  "ms": 1147
+ },
+ {
+  "id": "breath.out",
+  "n": 5,
+  "maxTp": -9.77,
+  "ms": 1158
+ },
+ {
+  "id": "elec.spark",
+  "n": 6,
+  "maxTp": -2.66,
+  "ms": 167
+ },
+ {
+  "id": "elec.zap",
+  "n": 6,
+  "maxTp": -3.61,
+  "ms": 427
+ },
+ {
+  "id": "elec.arc",
+  "n": 4,
+  "maxTp": -2.67,
+  "ms": 360
+ },
+ {
+  "id": "elec.buzz",
+  "n": 1,
+  "maxTp": -8.17,
+  "ms": 737
+ },
+ {
+  "id": "elec.crackle",
+  "n": 1,
+  "maxTp": -5.3,
+  "ms": 431
+ },
+ {
+  "id": "elec.relay",
+  "n": 6,
+  "maxTp": -3.18,
+  "ms": 635
+ },
+ {
+  "id": "elec.relays",
+  "n": 2,
+  "maxTp": -3.12,
+  "ms": 445
+ },
+ {
+  "id": "elec.lever",
+  "n": 3,
+  "maxTp": -2.55,
+  "ms": 176
+ },
+ {
+  "id": "lab.charge",
+  "n": 2,
+  "maxTp": -8.06,
+  "ms": 639
+ },
+ {
+  "id": "lab.discharge",
+  "n": 2,
+  "maxTp": -3.16,
+  "ms": 278
+ },
+ {
+  "id": "lab.tail",
+  "n": 2,
+  "maxTp": -12.16,
+  "ms": 412
+ },
+ {
+  "id": "lab.powerdown",
+  "n": 2,
+  "maxTp": -13.87,
+  "ms": 280
+ },
+ {
+  "id": "ack.glint",
+  "n": 6,
+  "maxTp": -12.06,
+  "ms": 1148
+ },
+ {
+  "id": "ack.two",
+  "n": 4,
+  "maxTp": -9.81,
+  "ms": 965
+ },
+ {
+  "id": "ack.three",
+  "n": 4,
+  "maxTp": -9.13,
+  "ms": 4294
+ },
+ {
+  "id": "bolt.tick",
+  "n": 4,
+  "maxTp": -2.28,
+  "ms": 312
+ },
+ {
+  "id": "bolt.buzz",
+  "n": 2,
+  "maxTp": -9.46,
+  "ms": 219
+ },
+ {
+  "id": "bolt.snap",
+  "n": 3,
+  "maxTp": -2.55,
+  "ms": 163
+ },
+ {
+  "id": "fire.flick",
+  "n": 2,
+  "maxTp": -7.59,
+  "ms": 272
+ },
+ {
+  "id": "pumpkin.ignite",
+  "n": 2,
+  "maxTp": -3.53,
+  "ms": 444
+ },
+ {
+  "id": "pumpkin.whisper",
+  "n": 3,
+  "maxTp": -10.14,
+  "ms": 6332
+ },
+ {
+  "id": "pumpkin.magic",
+  "n": 2,
+  "maxTp": -9.99,
+  "ms": 2167
+ },
+ {
+  "id": "gate.toll",
+  "n": 1,
+  "maxTp": -12.1,
+  "ms": 4403
+ },
+ {
+  "id": "gate.creak",
+  "n": 3,
+  "maxTp": -7.31,
+  "ms": 2782
+ },
+ {
+  "id": "gate.clank",
+  "n": 2,
+  "maxTp": -5.59,
+  "ms": 614
+ },
+ {
+  "id": "gate.wind",
+  "n": 2,
+  "maxTp": -4.66,
+  "ms": 2697
+ },
+ {
+  "id": "gate.spectral",
+  "n": 2,
+  "maxTp": -10.53,
+  "ms": 3396
+ },
+ {
+  "id": "gate.bats",
+  "n": 2,
+  "maxTp": -3.68,
+  "ms": 1392
+ },
+ {
+  "id": "gal.pad",
+  "n": 1,
+  "maxTp": -6.24,
+  "ms": 635
+ },
+ {
+  "id": "gal.twinkle",
+  "n": 6,
+  "maxTp": -15.14,
+  "ms": 391
+ },
+ {
+  "id": "gal.rise",
+  "n": 2,
+  "maxTp": -10.28,
+  "ms": 140
+ },
+ {
+  "id": "gal.bloom",
+  "n": 2,
+  "maxTp": -9.15,
+  "ms": 9383
+ },
+ {
+  "id": "grand.toll",
+  "n": 1,
+  "maxTp": -9.82,
+  "ms": 6106
+ },
+ {
+  "id": "grand.choir",
+  "n": 2,
+  "maxTp": -10.69,
+  "ms": 9453
+ },
+ {
+  "id": "grand.chimes",
+  "n": 2,
+  "maxTp": -11.48,
+  "ms": 396
+ },
+ {
+  "id": "lion.growl",
+  "n": 2,
+  "maxTp": -9.66,
+  "ms": 697
+ },
+ {
+  "id": "lion.roar",
+  "n": 2,
+  "maxTp": -4.28,
+  "ms": 3943
+ },
+ {
+  "id": "fw.burst",
+  "n": 4,
+  "maxTp": -3.56,
+  "ms": 1638
+ },
+ {
+  "id": "ui.open",
+  "n": 2,
+  "maxTp": -12.27,
+  "ms": 1728
+ },
+ {
+  "id": "ui.close",
+  "n": 2,
+  "maxTp": -13.94,
+  "ms": 315
+ },
+ {
+  "id": "ui.clue",
+  "n": 2,
+  "maxTp": -14.25,
+  "ms": 1290
+ },
+ {
+  "id": "ui.payoff",
+  "n": 2,
+  "maxTp": -10.38,
+  "ms": 1865
+ },
+ {
+  "id": "ui.surprise",
+  "n": 2,
+  "maxTp": -12.77,
+  "ms": 1097
+ },
+ {
+  "id": "ui.milestone",
+  "n": 2,
+  "maxTp": -10.97,
+  "ms": 1930
+ },
+ {
+  "id": "ui.carve",
+  "n": 2,
+  "maxTp": -7.13,
+  "ms": 1635
+ },
+ {
+  "id": "nv.am_michael.chuckle",
+  "n": 6,
+  "maxTp": -4,
+  "ms": 2576
+ },
+ {
+  "id": "nv.am_michael.curious",
+  "n": 4,
+  "maxTp": -5.32,
+  "ms": 725
+ },
+ {
+  "id": "nv.am_michael.delight",
+  "n": 3,
+  "maxTp": -4.82,
+  "ms": 291
+ },
+ {
+  "id": "nv.am_michael.effort",
+  "n": 5,
+  "maxTp": -3.65,
+  "ms": 741
+ },
+ {
+  "id": "nv.am_michael.relieved",
+  "n": 4,
+  "maxTp": -5.77,
+  "ms": 1796
+ },
+ {
+  "id": "nv.am_michael.roar",
+  "n": 3,
+  "maxTp": -3.68,
+  "ms": 971
+ },
+ {
+  "id": "nv.am_michael.surprised",
+  "n": 5,
+  "maxTp": -6.39,
+  "ms": 820
+ },
+ {
+  "id": "nv.am_michael.thoughtful",
+  "n": 5,
+  "maxTp": -5.12,
+  "ms": 148
+ },
+ {
+  "id": "nv.am_onyx.chuckle",
+  "n": 6,
+  "maxTp": -4.46,
+  "ms": 457
+ },
+ {
+  "id": "nv.am_onyx.curious",
+  "n": 4,
+  "maxTp": -4.4,
+  "ms": 148
+ },
+ {
+  "id": "nv.am_onyx.delight",
+  "n": 3,
+  "maxTp": -5.09,
+  "ms": 118
+ },
+ {
+  "id": "nv.am_onyx.effort",
+  "n": 5,
+  "maxTp": -3.58,
+  "ms": 195
+ },
+ {
+  "id": "nv.am_onyx.relieved",
+  "n": 4,
+  "maxTp": -5.47,
+  "ms": 457
+ },
+ {
+  "id": "nv.am_onyx.roar",
+  "n": 3,
+  "maxTp": -4.33,
+  "ms": 311
+ },
+ {
+  "id": "nv.am_onyx.surprised",
+  "n": 5,
+  "maxTp": -6.04,
+  "ms": 394
+ },
+ {
+  "id": "nv.am_onyx.thoughtful",
+  "n": 5,
+  "maxTp": -4.59,
+  "ms": 206
+ },
+ {
+  "id": "nv.am_puck.chuckle",
+  "n": 6,
+  "maxTp": -4.85,
+  "ms": 173
+ },
+ {
+  "id": "nv.am_puck.curious",
+  "n": 4,
+  "maxTp": -3.91,
+  "ms": 107
+ },
+ {
+  "id": "nv.am_puck.delight",
+  "n": 3,
+  "maxTp": -4.06,
+  "ms": 126
+ },
+ {
+  "id": "nv.am_puck.effort",
+  "n": 5,
+  "maxTp": -3.54,
+  "ms": 285
+ },
+ {
+  "id": "nv.am_puck.relieved",
+  "n": 4,
+  "maxTp": -4.43,
+  "ms": 112
+ },
+ {
+  "id": "nv.am_puck.roar",
+  "n": 3,
+  "maxTp": -4.75,
+  "ms": 72
+ },
+ {
+  "id": "nv.am_puck.surprised",
+  "n": 5,
+  "maxTp": -5.24,
+  "ms": 132
+ },
+ {
+  "id": "nv.am_puck.thoughtful",
+  "n": 5,
+  "maxTp": -4.16,
+  "ms": 116
+ },
+ {
+  "id": "nv.bm_lewis.chuckle",
+  "n": 6,
+  "maxTp": -3.61,
+  "ms": 163
+ },
+ {
+  "id": "nv.bm_lewis.curious",
+  "n": 4,
+  "maxTp": -3.55,
+  "ms": 97
+ },
+ {
+  "id": "nv.bm_lewis.delight",
+  "n": 3,
+  "maxTp": -3.67,
+  "ms": 71
+ },
+ {
+  "id": "nv.bm_lewis.effort",
+  "n": 5,
+  "maxTp": -3.46,
+  "ms": 929
+ },
+ {
+  "id": "nv.bm_lewis.relieved",
+  "n": 4,
+  "maxTp": -3.72,
+  "ms": 2810
+ },
+ {
+  "id": "nv.bm_lewis.roar",
+  "n": 3,
+  "maxTp": -4,
+  "ms": 1935
+ },
+ {
+  "id": "nv.bm_lewis.surprised",
+  "n": 5,
+  "maxTp": -4.38,
+  "ms": 1234
+ },
+ {
+  "id": "nv.bm_lewis.thoughtful",
+  "n": 5,
+  "maxTp": -3.69,
+  "ms": 961
+ }
+]

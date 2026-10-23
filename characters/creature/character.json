@@ -1,0 +1,82 @@
+{
+  "name": "The Creature",
+  "callNames": ["creature", "monster", "frankenstein", "daemon", "friend"],
+
+  "readerVoices": ["am_michael", "bm_george", "am_puck", "bm_fable", "am_fenrir", "bm_daniel", "am_liam", "am_echo"],
+
+  "idleAfterSeconds": 20,
+  "commentMaxAgeSeconds": 60,
+  "userCooldownSeconds": 15,
+  "likesMilestone": 500,
+  "taleMinCoins": 500,
+  "giftEvents": [
+    { "id": "bolt", "name": "Bolt Spark", "minCoins": 30, "seconds": [3, 4] },
+    { "id": "pumpkin", "name": "Pumpkin Whisper", "minCoins": 100, "seconds": [5, 7] },
+    { "id": "gate", "name": "Haunted Gate", "minCoins": 500, "seconds": [8, 10] },
+    { "id": "lab", "name": "Laboratory Surge", "minCoins": 1000, "seconds": [10, 13], "variants": { "galaxy": "galaxy" } },
+    { "id": "grand", "name": "The Grand Reanimation", "minCoins": 3000, "seconds": [14, 18], "variants": { "lion": "lion" } }
+  ],
+
+  "favouritesNote": "His favourites, with reasons, live in persona-memory.json (and persona-learned.json for ones he improvised on air).",
+
+  "commands": {
+    "backflip": ["backflip", "back flip", "do a flip"],
+    "pushups": ["pushup", "push up", "push-up", "pushups", "push ups"],
+    "handstand": ["handstand", "hand stand"],
+    "dance": ["dance", "monster mash"],
+    "roar": ["roar", "scream"],
+    "jacks": ["jumping jack", "jumping jacks"],
+    "spin": ["spin", "turn around"],
+    "stomp": ["stomp"],
+    "kneel": ["kneel", "pay respects", "mourn"],
+    "wave": ["wave"],
+    "bow": ["bow"],
+    "flex": ["flex", "show muscles", "show your muscles"],
+    "walk_crypt": ["go to the crypt", "crypt", "mausoleum", "tomb"],
+    "walk_gate": ["go to the gate", "gate"],
+    "walk_left_graves": ["old graves", "left graves"],
+    "walk_right_graves": ["right graves", "go to the graves"],
+    "walk_pumpkins": ["pumpkin", "pumpkins"],
+    "walk_tree": ["go to the tree", "dead tree", "the tree"],
+    "walk_front": ["come closer", "come here"],
+    "walk_center": ["come back", "go back"]
+  },
+  "commandCooldownSeconds": 6,
+
+  "model": "/assets/creature/creature_v2.glb",
+  "modelScale": "auto",
+
+  "environment": {
+    "model": "/assets/cemetery/cemetery.fbx",
+    "textures": "/assets/cemetery/textures/",
+    "scale": 0.01,
+    "materials": {
+      "base": { "map": "all_diff.png", "normalMap": "all_normal.png", "normalFlipY": true, "glossMap": "all_gloss.png", "aoMap": "all_ao.png", "emissiveMap": "all_emissive.png", "emissiveIntensity": 1.7 },
+      "plants": { "map": "../derived/plants_diff.png", "alphaTest": 0.5, "normalMap": "../derived/plants_normal.png", "normalFlipY": true, "glossMap": "../derived/plants_gloss.png", "emissiveMap": "plants_emission_.png", "emissiveIntensity": 1.6, "doubleSide": true, "wind": { "ground": 0.4, "reach": 2.2, "amount": 0.035 } },
+      "road": { "map": "../derived/road_diff.png", "normalMap": "../derived/road_normal.png", "normalFlipY": true, "glossMap": "../derived/road_gloss.png" },
+      "soil": { "map": "../derived/soil_dif.png", "normalMap": "../derived/soil_normal.png", "normalScale": [-1, 1], "glossMap": "../derived/soil_gloss.png", "side": "back" },
+      "light": { "map": "light_diff.png", "glossMap": "light_gloss.png", "emissiveMap": "light_emissive.png", "emissiveIntensity": 0.45 }
+    },
+    "offsets": { "road": [0, 2.5, 0] },
+    "ground": ["soil", "road"],
+    "groundFallback": 0.367,
+    "notSolid": ["plants", "light"],
+    "foliage": ["plants"],
+    "nav": { "cell": 0.2, "radius": 0.38, "step": 0.3, "low": 0.1, "plantStep": 0.28, "plantCover": 0.4 },
+    "candles": { "mesh": "base", "map": "all_emissive.png", "cell": 0.6, "threshold": 0.2, "limit": 12, "intensity": 2.2, "distance": 5 },
+    "wisps": { "mesh": "light", "keep": 16, "maxHeight": 2.0, "color": "#9fe8c4", "intensity": 0.32, "drift": 0.1 },
+    "glowMesh": "plants",
+    "pumpkinIntensity": 2.5,
+    "giftStone": { "at": [-1.35, -2.2], "rotationY": 0.15 },
+    "spots": {
+      "center": { "at": [0.5, 0.6] },
+      "front": { "at": [0.15, 2.6] },
+      "gate": { "at": [1.05, -4.4] },
+      "crypt": { "at": [-2.6, -3.0], "via": [[0.9, -3.0]] },
+      "left_graves": { "at": [-3.0, 1.0], "via": [[0.4, 1.0]] },
+      "right_graves": { "at": [3.4, 0.0], "via": [[0.5, 0.0]] },
+      "pumpkins": { "at": [3.0, 3.4], "via": [[0.1, 3.4]] },
+      "tree": { "at": [-4.6, 3.0], "via": [[0.15, 3.0]] }
+    }
+  }
+}

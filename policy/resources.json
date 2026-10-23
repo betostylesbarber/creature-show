@@ -1,0 +1,85 @@
+{
+  "version": "2026.10.23-1",
+  "reviewedAt": "2026-10-23",
+  "note": "The only phone numbers the Creature may ever say or caption. Each was checked on its official page on the review date. Do not add a number without opening its source page; re-check them before every season. When no listed resource fits the viewer, speech points to local emergency services or a trusted person instead.",
+  "resources": [
+    {
+      "id": "eu-112",
+      "region": "EU (including Romania)",
+      "languages": ["en", "ro"],
+      "kind": "emergency",
+      "name": "European emergency number",
+      "number": "112",
+      "spoken": "112",
+      "hours": "24/7",
+      "cost": "free",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/112",
+      "checked": "2026-10-23: page states 112 is the European emergency phone number, available everywhere in the EU, free of charge."
+    },
+    {
+      "id": "us-988",
+      "region": "United States",
+      "languages": ["en"],
+      "kind": "crisis",
+      "name": "988 Suicide & Crisis Lifeline",
+      "number": "988",
+      "spoken": "988",
+      "hours": "24/7",
+      "cost": "free",
+      "source": "https://988lifeline.org/",
+      "checked": "2026-10-23: page tells people to call or text 988."
+    },
+    {
+      "id": "us-911",
+      "region": "United States and Canada",
+      "languages": ["en"],
+      "kind": "emergency",
+      "name": "Emergency services",
+      "number": "911",
+      "spoken": "911",
+      "hours": "24/7",
+      "cost": "free",
+      "source": "https://www.911.gov/",
+      "checked": "2026-10-23: the source page refused automated fetching (HTTP 403); listed because it is the national emergency number, re-check by hand."
+    },
+    {
+      "id": "uk-ie-samaritans",
+      "region": "UK and Ireland",
+      "languages": ["en"],
+      "kind": "crisis",
+      "name": "Samaritans",
+      "number": "116 123",
+      "spoken": "116 123",
+      "hours": "24/7",
+      "cost": "free",
+      "source": "https://www.samaritans.org/how-we-can-help/contact-samaritan/",
+      "checked": "2026-10-23: page lists 116 123, free from landlines and mobiles, open 24 hours a day."
+    },
+    {
+      "id": "ro-arps",
+      "region": "Romania",
+      "languages": ["ro"],
+      "kind": "crisis",
+      "name": "Alianța Română de Prevenție a Suicidului",
+      "number": "0800 801 200",
+      "spoken": "0800 801 200",
+      "hours": "Friday to Sunday, 19:00 to 07:00",
+      "cost": "free",
+      "source": "https://www.antisuicid.ro/",
+      "checked": "2026-10-23: page lists 0800 801 200, toll-free, Friday-Sunday 19:00-07:00. Not 24/7, so speech pairs it with 112."
+    },
+    {
+      "id": "ro-telefonul-copilului",
+      "region": "Romania",
+      "languages": ["ro"],
+      "kind": "child",
+      "name": "Telefonul Copilului",
+      "number": "116 111",
+      "spoken": "116 111",
+      "hours": "Monday to Friday, 10:00 to 20:00",
+      "cost": "free",
+      "source": "https://telefonulcopilului.ro/",
+      "checked": "2026-10-23: page lists 116 111, free, Monday-Friday 10:00-20:00."
+    }
+  ]
+}

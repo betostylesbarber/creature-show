@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Creature Stream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;800&display=swap" />
+    <link rel="stylesheet" href="/stream/stream.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/vendor/three/build/three.module.js",
+          "three/addons/": "/vendor/three/examples/jsm/",
+          "three-mesh-bvh": "/vendor/three-mesh-bvh/src/index.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="stage"></div>
+    <button id="unlock" hidden>Click to turn on sound</button>
+    <script type="module" src="/stream/main.js"></script>
+  </body>
+</html>

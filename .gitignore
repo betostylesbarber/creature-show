@@ -1,0 +1,8 @@
+node_modules/
+.env
+settings.json
+assets/music/
+data/
+captures/
+backups/
+characters/creature/persona-learned.json

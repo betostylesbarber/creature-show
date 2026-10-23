@@ -1,0 +1,5335 @@
+{
+ "sounds": {
+  "ack.glint": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "fx/ack_glint_01.ogg",
+     "dur": 1.62,
+     "channels": 1,
+     "lufsI": -28.5,
+     "lufsM": -22,
+     "tp": -12.14,
+     "bytes": 23656
+    },
+    {
+     "file": "fx/ack_glint_02.ogg",
+     "dur": 1.62,
+     "channels": 1,
+     "lufsI": -28.6,
+     "lufsM": -22,
+     "tp": -12.33,
+     "bytes": 23656
+    },
+    {
+     "file": "fx/ack_glint_03.ogg",
+     "dur": 1.62,
+     "channels": 1,
+     "lufsI": -28.4,
+     "lufsM": -22,
+     "tp": -12.06,
+     "bytes": 23656
+    },
+    {
+     "file": "fx/ack_glint_04.ogg",
+     "dur": 1.62,
+     "channels": 1,
+     "lufsI": -28.8,
+     "lufsM": -22,
+     "tp": -12.3,
+     "bytes": 23656
+    },
+    {
+     "file": "fx/ack_glint_05.ogg",
+     "dur": 1.62,
+     "channels": 1,
+     "lufsI": -28.5,
+     "lufsM": -22,
+     "tp": -12.38,
+     "bytes": 23631
+    },
+    {
+     "file": "fx/ack_glint_06.ogg",
+     "dur": 1.62,
+     "channels": 1,
+     "lufsI": -27.5,
+     "lufsM": -22,
+     "tp": -12.73,
+     "bytes": 23633
+    }
+   ]
+  },
+  "ack.three": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "fx/ack_three_01.ogg",
+     "dur": 2.6,
+     "channels": 1,
+     "lufsI": -24.8,
+     "lufsM": -20,
+     "tp": -9.13,
+     "bytes": 37351
+    },
+    {
+     "file": "fx/ack_three_02.ogg",
+     "dur": 2.6,
+     "channels": 1,
+     "lufsI": -24.6,
+     "lufsM": -20,
+     "tp": -10.53,
+     "bytes": 37384
+    },
+    {
+     "file": "fx/ack_three_03.ogg",
+     "dur": 2.6,
+     "channels": 1,
+     "lufsI": -24.5,
+     "lufsM": -20,
+     "tp": -9.47,
+     "bytes": 37496
+    },
+    {
+     "file": "fx/ack_three_04.ogg",
+     "dur": 2.6,
+     "channels": 1,
+     "lufsI": -25.3,
+     "lufsM": -20,
+     "tp": -9.16,
+     "bytes": 37482
+    }
+   ]
+  },
+  "ack.two": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "fx/ack_two_01.ogg",
+     "dur": 1.93,
+     "channels": 1,
+     "lufsI": -26.9,
+     "lufsM": -21,
+     "tp": -10.24,
+     "bytes": 27901
+    },
+    {
+     "file": "fx/ack_two_02.ogg",
+     "dur": 1.93,
+     "channels": 1,
+     "lufsI": -26.7,
+     "lufsM": -21,
+     "tp": -10.82,
+     "bytes": 27845
+    },
+    {
+     "file": "fx/ack_two_03.ogg",
+     "dur": 1.93,
+     "channels": 1,
+     "lufsI": -26.7,
+     "lufsM": -21,
+     "tp": -9.81,
+     "bytes": 27751
+    },
+    {
+     "file": "fx/ack_two_04.ogg",
+     "dur": 1.93,
+     "channels": 1,
+     "lufsI": -26.9,
+     "lufsM": -21,
+     "tp": -10.63,
+     "bytes": 27793
+    }
+   ]
+  },
+  "amb.air": {
+   "cat": "ambience",
+   "decodeRate": 8000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:331222"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_air_01.ogg",
+     "dur": 41,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -19.4,
+     "tp": -6.69,
+     "bytes": 581963
+    }
+   ]
+  },
+  "amb.batsqueak": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:806574"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_batsqueak_01.ogg",
+     "dur": 0.26,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -7.2,
+     "bytes": 4338
+    },
+    {
+     "file": "ambience/amb_batsqueak_02.ogg",
+     "dur": 0.32,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -9.37,
+     "bytes": 5107
+    },
+    {
+     "file": "ambience/amb_batsqueak_03.ogg",
+     "dur": 0.68,
+     "channels": 1,
+     "lufsI": -20.1,
+     "lufsM": -20.1,
+     "tp": -11.04,
+     "bytes": 10259
+    },
+    {
+     "file": "ambience/amb_batsqueak_04.ogg",
+     "dur": 0.3,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -10.09,
+     "bytes": 4808
+    },
+    {
+     "file": "ambience/amb_batsqueak_05.ogg",
+     "dur": 0.19,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.42,
+     "bytes": 3253
+    }
+   ]
+  },
+  "amb.batwings": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:546823"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_batwings_01.ogg",
+     "dur": 1.52,
+     "channels": 1,
+     "lufsI": -24.1,
+     "lufsM": -21.6,
+     "tp": -3.47,
+     "bytes": 22009
+    },
+    {
+     "file": "ambience/amb_batwings_02.ogg",
+     "dur": 2.5,
+     "channels": 1,
+     "lufsI": -24.6,
+     "lufsM": -22,
+     "tp": -3.05,
+     "bytes": 35926
+    },
+    {
+     "file": "ambience/amb_batwings_03.ogg",
+     "dur": 1.76,
+     "channels": 1,
+     "lufsI": -23.5,
+     "lufsM": -21.6,
+     "tp": -3.37,
+     "bytes": 25449
+    },
+    {
+     "file": "ambience/amb_batwings_04.ogg",
+     "dur": 1.7,
+     "channels": 1,
+     "lufsI": -25.7,
+     "lufsM": -24.1,
+     "tp": -2.91,
+     "bytes": 24738
+    }
+   ]
+  },
+  "amb.branch": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:733731"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_branch_01.ogg",
+     "dur": 1.13,
+     "channels": 1,
+     "lufsI": -23.7,
+     "lufsM": -21.5,
+     "tp": -3.48,
+     "bytes": 16376
+    },
+    {
+     "file": "ambience/amb_branch_02.ogg",
+     "dur": 0.68,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21.4,
+     "tp": -3.07,
+     "bytes": 10318
+    },
+    {
+     "file": "ambience/amb_branch_03.ogg",
+     "dur": 0.87,
+     "channels": 1,
+     "lufsI": -23.2,
+     "lufsM": -22.6,
+     "tp": -2.87,
+     "bytes": 12640
+    },
+    {
+     "file": "ambience/amb_branch_04.ogg",
+     "dur": 0.74,
+     "channels": 1,
+     "lufsI": -24,
+     "lufsM": -20.3,
+     "tp": -2.9,
+     "bytes": 11165
+    }
+   ]
+  },
+  "amb.candle": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:807942"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_candle_01.ogg",
+     "dur": 7.3,
+     "channels": 1,
+     "lufsI": -23.5,
+     "lufsM": -21.4,
+     "tp": -3.41,
+     "bytes": 103959
+    }
+   ]
+  },
+  "amb.coil": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:675760"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_coil_01.ogg",
+     "dur": 10,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21.4,
+     "tp": -14.29,
+     "bytes": 142476
+    }
+   ]
+  },
+  "amb.creak": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:238289",
+    "fs:119468",
+    "fs:483166",
+    "fs:172411"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_creak_01.ogg",
+     "dur": 3.142,
+     "channels": 1,
+     "lufsI": -25.4,
+     "lufsM": -20,
+     "tp": -9.36,
+     "bytes": 45213
+    },
+    {
+     "file": "ambience/amb_creak_02.ogg",
+     "dur": 3.151,
+     "channels": 1,
+     "lufsI": -23.6,
+     "lufsM": -20,
+     "tp": -3.43,
+     "bytes": 44995
+    },
+    {
+     "file": "ambience/amb_creak_03.ogg",
+     "dur": 3.727,
+     "channels": 1,
+     "lufsI": -24.6,
+     "lufsM": -20,
+     "tp": -15.11,
+     "bytes": 53409
+    },
+    {
+     "file": "ambience/amb_creak_04.ogg",
+     "dur": 1.17,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -20,
+     "tp": -9.26,
+     "bytes": 17071
+    },
+    {
+     "file": "ambience/amb_creak_05.ogg",
+     "dur": 0.68,
+     "channels": 1,
+     "lufsI": -20.4,
+     "lufsM": -20,
+     "tp": -10.16,
+     "bytes": 10328
+    },
+    {
+     "file": "ambience/amb_creak_06.ogg",
+     "dur": 0.68,
+     "channels": 1,
+     "lufsI": -20.8,
+     "lufsM": -20,
+     "tp": -10.04,
+     "bytes": 10327
+    }
+   ]
+  },
+  "amb.crow": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:741366",
+    "fs:250095"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_crow_01.ogg",
+     "dur": 0.61,
+     "channels": 1,
+     "lufsI": -21.7,
+     "lufsM": -19.9,
+     "tp": -7.84,
+     "bytes": 9196
+    },
+    {
+     "file": "ambience/amb_crow_02.ogg",
+     "dur": 1.14,
+     "channels": 1,
+     "lufsI": -21.4,
+     "lufsM": -20.1,
+     "tp": -8.33,
+     "bytes": 16864
+    },
+    {
+     "file": "ambience/amb_crow_03.ogg",
+     "dur": 1.85,
+     "channels": 1,
+     "lufsI": -22.2,
+     "lufsM": -20,
+     "tp": -7.61,
+     "bytes": 26762
+    },
+    {
+     "file": "ambience/amb_crow_04.ogg",
+     "dur": 1.28,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -19.9,
+     "tp": -7.53,
+     "bytes": 18638
+    },
+    {
+     "file": "ambience/amb_crow_05.ogg",
+     "dur": 0.58,
+     "channels": 1,
+     "lufsI": -20.2,
+     "lufsM": -20,
+     "tp": -6.32,
+     "bytes": 8808
+    },
+    {
+     "file": "ambience/amb_crow_06.ogg",
+     "dur": 0.55,
+     "channels": 1,
+     "lufsI": -20.4,
+     "lufsM": -20,
+     "tp": -5.05,
+     "bytes": 8194
+    }
+   ]
+  },
+  "amb.fire": {
+   "cat": "ambience",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:637523"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_fire_01.ogg",
+     "dur": 14,
+     "channels": 1,
+     "lufsI": -28,
+     "lufsM": -24.4,
+     "tp": -2.46,
+     "bytes": 198959
+    }
+   ]
+  },
+  "amb.hum": {
+   "cat": "ambience",
+   "decodeRate": 16000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:785942"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_hum_01.ogg",
+     "dur": 10,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -22.5,
+     "tp": -13.56,
+     "bytes": 142377
+    }
+   ]
+  },
+  "amb.owl": {
+   "cat": "ambience",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:655380",
+    "fs:688869",
+    "fs:450214",
+    "fs:558397"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_owl_01.ogg",
+     "dur": 6.649,
+     "channels": 1,
+     "lufsI": -23.7,
+     "lufsM": -20,
+     "tp": -11.4,
+     "bytes": 94600
+    },
+    {
+     "file": "ambience/amb_owl_02.ogg",
+     "dur": 1.5,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -20,
+     "tp": -13.52,
+     "bytes": 21914
+    },
+    {
+     "file": "ambience/amb_owl_03.ogg",
+     "dur": 1.46,
+     "channels": 1,
+     "lufsI": -21.9,
+     "lufsM": -20,
+     "tp": -12.77,
+     "bytes": 21329
+    },
+    {
+     "file": "ambience/amb_owl_04.ogg",
+     "dur": 1.26,
+     "channels": 1,
+     "lufsI": -22.1,
+     "lufsM": -20,
+     "tp": -15.06,
+     "bytes": 18485
+    },
+    {
+     "file": "ambience/amb_owl_05.ogg",
+     "dur": 4.388,
+     "channels": 1,
+     "lufsI": -22.9,
+     "lufsM": -20,
+     "tp": -11.71,
+     "bytes": 62640
+    }
+   ]
+  },
+  "amb.rattle": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:274766"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_rattle_01.ogg",
+     "dur": 1.64,
+     "channels": 1,
+     "lufsI": -22.4,
+     "lufsM": -20,
+     "tp": -4.61,
+     "bytes": 23896
+    },
+    {
+     "file": "ambience/amb_rattle_02.ogg",
+     "dur": 0.76,
+     "channels": 1,
+     "lufsI": -21.7,
+     "lufsM": -19.9,
+     "tp": -4.85,
+     "bytes": 11434
+    },
+    {
+     "file": "ambience/amb_rattle_03.ogg",
+     "dur": 2.06,
+     "channels": 1,
+     "lufsI": -23.2,
+     "lufsM": -20,
+     "tp": -3.11,
+     "bytes": 29859
+    },
+    {
+     "file": "ambience/amb_rattle_04.ogg",
+     "dur": 0.86,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -20,
+     "tp": -4.53,
+     "bytes": 12852
+    }
+   ]
+  },
+  "amb.settle": {
+   "cat": "ambience",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:618084",
+    "fs:618082",
+    "fs:590171",
+    "fs:506665",
+    "kenney_rpg:creak1",
+    "kenney_rpg:creak2",
+    "kenney_rpg:creak3"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_settle_01.ogg",
+     "dur": 2.106,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -20,
+     "tp": -3.81,
+     "bytes": 30224
+    },
+    {
+     "file": "ambience/amb_settle_02.ogg",
+     "dur": 1.467,
+     "channels": 1,
+     "lufsI": -23.2,
+     "lufsM": -20,
+     "tp": -6.86,
+     "bytes": 21341
+    },
+    {
+     "file": "ambience/amb_settle_03.ogg",
+     "dur": 2.982,
+     "channels": 1,
+     "lufsI": -24.8,
+     "lufsM": -20,
+     "tp": -5.73,
+     "bytes": 42761
+    },
+    {
+     "file": "ambience/amb_settle_04.ogg",
+     "dur": 0.901,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -20,
+     "tp": -7.64,
+     "bytes": 13264
+    },
+    {
+     "file": "ambience/amb_settle_05.ogg",
+     "dur": 0.636,
+     "channels": 1,
+     "lufsI": -20.6,
+     "lufsM": -20,
+     "tp": -6.34,
+     "bytes": 9678
+    },
+    {
+     "file": "ambience/amb_settle_06.ogg",
+     "dur": 0.844,
+     "channels": 1,
+     "lufsI": -21.5,
+     "lufsM": -20,
+     "tp": -5.86,
+     "bytes": 12531
+    },
+    {
+     "file": "ambience/amb_settle_07.ogg",
+     "dur": 0.345,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -5.56,
+     "bytes": 5376
+    }
+   ]
+  },
+  "amb.spirit": {
+   "cat": "ambience",
+   "decodeRate": 16000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:573805"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_spirit_01.ogg",
+     "dur": 20,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -19.2,
+     "tp": -14.26,
+     "bytes": 284114
+    }
+   ]
+  },
+  "amb.trees": {
+   "cat": "ambience",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:573175"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_trees_01.ogg",
+     "dur": 24,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -17.6,
+     "tp": -3.6,
+     "bytes": 340827
+    }
+   ]
+  },
+  "amb.wind": {
+   "cat": "ambience",
+   "decodeRate": 16000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:706532"
+   ],
+   "variants": [
+    {
+     "file": "ambience/amb_wind_01.ogg",
+     "dur": 30,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -20.1,
+     "tp": -7.44,
+     "bytes": 426016
+    }
+   ]
+  },
+  "body.impact": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -18
+   ],
+   "sources": [
+    "fs:556002",
+    "kenney_impact:impactPunch_heavy_000",
+    "kenney_impact:impactPunch_heavy_001",
+    "kenney_impact:impactPunch_heavy_002",
+    "kenney_impact:impactPunch_heavy_003",
+    "kenney_impact:impactPunch_heavy_004"
+   ],
+   "variants": [
+    {
+     "file": "foley/body_impact_01.ogg",
+     "dur": 0.854,
+     "channels": 1,
+     "lufsI": -24.3,
+     "lufsM": -20.6,
+     "tp": -3.79,
+     "bytes": 12626
+    },
+    {
+     "file": "foley/body_impact_02.ogg",
+     "dur": 0.694,
+     "channels": 1,
+     "lufsI": -22.8,
+     "lufsM": -20.5,
+     "tp": -3.25,
+     "bytes": 10462
+    },
+    {
+     "file": "foley/body_impact_03.ogg",
+     "dur": 0.605,
+     "channels": 1,
+     "lufsI": -23.6,
+     "lufsM": -21.3,
+     "tp": -3.52,
+     "bytes": 9060
+    },
+    {
+     "file": "foley/body_impact_04.ogg",
+     "dur": 0.627,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -19.5,
+     "tp": -3.45,
+     "bytes": 9381
+    },
+    {
+     "file": "foley/body_impact_05.ogg",
+     "dur": 0.701,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -19.7,
+     "tp": -3.15,
+     "bytes": 10496
+    }
+   ]
+  },
+  "bolt.buzz": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "fx/bolt_buzz_01.ogg",
+     "dur": 0.7,
+     "channels": 1,
+     "lufsI": -24.2,
+     "lufsM": -22,
+     "tp": -9.46,
+     "bytes": 10607
+    },
+    {
+     "file": "fx/bolt_buzz_02.ogg",
+     "dur": 0.7,
+     "channels": 1,
+     "lufsI": -24.1,
+     "lufsM": -22,
+     "tp": -9.5,
+     "bytes": 10537
+    }
+   ]
+  },
+  "bolt.snap": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -18
+   ],
+   "sources": [
+    "fs:393823",
+    "fs:655812"
+   ],
+   "variants": [
+    {
+     "file": "fx/bolt_snap_01.ogg",
+     "dur": 0.9,
+     "channels": 1,
+     "lufsI": -19.8,
+     "lufsM": -18.4,
+     "tp": -3.1,
+     "bytes": 13441
+    },
+    {
+     "file": "fx/bolt_snap_02.ogg",
+     "dur": 0.9,
+     "channels": 1,
+     "lufsI": -20.5,
+     "lufsM": -18.9,
+     "tp": -2.55,
+     "bytes": 13437
+    },
+    {
+     "file": "fx/bolt_snap_03.ogg",
+     "dur": 0.9,
+     "channels": 1,
+     "lufsI": -20.6,
+     "lufsM": -19,
+     "tp": -2.76,
+     "bytes": 13423
+    }
+   ]
+  },
+  "bolt.tick": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -26
+   ],
+   "sources": [
+    "fs:655812"
+   ],
+   "variants": [
+    {
+     "file": "fx/bolt_tick_01.ogg",
+     "dur": 0.112,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.41,
+     "bytes": 2121
+    },
+    {
+     "file": "fx/bolt_tick_02.ogg",
+     "dur": 0.132,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -2.28,
+     "bytes": 2404
+    },
+    {
+     "file": "fx/bolt_tick_03.ogg",
+     "dur": 0.112,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -2.38,
+     "bytes": 2121
+    },
+    {
+     "file": "fx/bolt_tick_04.ogg",
+     "dur": 0.202,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.68,
+     "bytes": 3533
+    }
+   ]
+  },
+  "breath.in": {
+   "cat": "foley",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:722717"
+   ],
+   "variants": [
+    {
+     "file": "foley/breath_in_01.ogg",
+     "dur": 1.1,
+     "channels": 1,
+     "lufsI": -25.6,
+     "lufsM": -24,
+     "tp": -12.8,
+     "bytes": 16190
+    },
+    {
+     "file": "foley/breath_in_02.ogg",
+     "dur": 1.1,
+     "channels": 1,
+     "lufsI": -25.5,
+     "lufsM": -24,
+     "tp": -13.1,
+     "bytes": 16159
+    },
+    {
+     "file": "foley/breath_in_03.ogg",
+     "dur": 1.1,
+     "channels": 1,
+     "lufsI": -25.4,
+     "lufsM": -24,
+     "tp": -12.8,
+     "bytes": 16187
+    },
+    {
+     "file": "foley/breath_in_04.ogg",
+     "dur": 1.1,
+     "channels": 1,
+     "lufsI": -24.7,
+     "lufsM": -24,
+     "tp": -11.19,
+     "bytes": 16193
+    },
+    {
+     "file": "foley/breath_in_05.ogg",
+     "dur": 1.1,
+     "channels": 1,
+     "lufsI": -25.3,
+     "lufsM": -24,
+     "tp": -11.22,
+     "bytes": 16265
+    }
+   ]
+  },
+  "breath.out": {
+   "cat": "foley",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:722717"
+   ],
+   "variants": [
+    {
+     "file": "foley/breath_out_01.ogg",
+     "dur": 1.7,
+     "channels": 1,
+     "lufsI": -25.5,
+     "lufsM": -24,
+     "tp": -13.15,
+     "bytes": 24662
+    },
+    {
+     "file": "foley/breath_out_02.ogg",
+     "dur": 1.7,
+     "channels": 1,
+     "lufsI": -27.8,
+     "lufsM": -24,
+     "tp": -10.47,
+     "bytes": 24674
+    },
+    {
+     "file": "foley/breath_out_03.ogg",
+     "dur": 1.7,
+     "channels": 1,
+     "lufsI": -25.7,
+     "lufsM": -24,
+     "tp": -11.91,
+     "bytes": 24659
+    },
+    {
+     "file": "foley/breath_out_04.ogg",
+     "dur": 1.7,
+     "channels": 1,
+     "lufsI": -26.7,
+     "lufsM": -24,
+     "tp": -9.77,
+     "bytes": 24646
+    },
+    {
+     "file": "foley/breath_out_05.ogg",
+     "dur": 1.7,
+     "channels": 1,
+     "lufsI": -26.8,
+     "lufsM": -24,
+     "tp": -12.48,
+     "bytes": 24671
+    }
+   ]
+  },
+  "cloth.big": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:235252"
+   ],
+   "variants": [
+    {
+     "file": "foley/cloth_big_01.ogg",
+     "dur": 0.21,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.41,
+     "bytes": 3349
+    },
+    {
+     "file": "foley/cloth_big_02.ogg",
+     "dur": 0.59,
+     "channels": 1,
+     "lufsI": -25.5,
+     "lufsM": -25.5,
+     "tp": -3.52,
+     "bytes": 8740
+    },
+    {
+     "file": "foley/cloth_big_03.ogg",
+     "dur": 0.33,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.9,
+     "bytes": 5048
+    },
+    {
+     "file": "foley/cloth_big_04.ogg",
+     "dur": 0.58,
+     "channels": 1,
+     "lufsI": -22.1,
+     "lufsM": -22,
+     "tp": -6.82,
+     "bytes": 8818
+    }
+   ]
+  },
+  "cloth.move": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "kenney_rpg:cloth1",
+    "kenney_rpg:cloth2",
+    "kenney_rpg:cloth3",
+    "kenney_rpg:cloth4",
+    "kenney_rpg:clothBelt",
+    "kenney_rpg:clothBelt2"
+   ],
+   "variants": [
+    {
+     "file": "foley/cloth_move_01.ogg",
+     "dur": 0.556,
+     "channels": 1,
+     "lufsI": -25.3,
+     "lufsM": -24.5,
+     "tp": -3.64,
+     "bytes": 8490
+    },
+    {
+     "file": "foley/cloth_move_02.ogg",
+     "dur": 0.356,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.51,
+     "bytes": 5694
+    },
+    {
+     "file": "foley/cloth_move_03.ogg",
+     "dur": 0.465,
+     "channels": 1,
+     "lufsI": -24,
+     "lufsM": -24,
+     "tp": -5.11,
+     "bytes": 7060
+    },
+    {
+     "file": "foley/cloth_move_04.ogg",
+     "dur": 0.385,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -5.01,
+     "bytes": 5923
+    },
+    {
+     "file": "foley/cloth_move_05.ogg",
+     "dur": 0.71,
+     "channels": 1,
+     "lufsI": -26.8,
+     "lufsM": -25.2,
+     "tp": -3.59,
+     "bytes": 10566
+    },
+    {
+     "file": "foley/cloth_move_06.ogg",
+     "dur": 0.563,
+     "channels": 1,
+     "lufsI": -24.4,
+     "lufsM": -24,
+     "tp": -5.17,
+     "bytes": 8544
+    }
+   ]
+  },
+  "elec.arc": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:449013"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_arc_01.ogg",
+     "dur": 2.4,
+     "channels": 1,
+     "lufsI": -24,
+     "lufsM": -20,
+     "tp": -3.41,
+     "bytes": 34528
+    },
+    {
+     "file": "fx/elec_arc_02.ogg",
+     "dur": 2.4,
+     "channels": 1,
+     "lufsI": -23.6,
+     "lufsM": -20,
+     "tp": -4.13,
+     "bytes": 34647
+    },
+    {
+     "file": "fx/elec_arc_03.ogg",
+     "dur": 2.4,
+     "channels": 1,
+     "lufsI": -24.7,
+     "lufsM": -20,
+     "tp": -3.41,
+     "bytes": 34720
+    },
+    {
+     "file": "fx/elec_arc_04.ogg",
+     "dur": 2.4,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -20.4,
+     "tp": -2.67,
+     "bytes": 34715
+    }
+   ]
+  },
+  "elec.buzz": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:776446"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_buzz_01.ogg",
+     "dur": 7.5,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21,
+     "tp": -8.17,
+     "bytes": 106912
+    }
+   ]
+  },
+  "elec.crackle": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:871766"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_crackle_01.ogg",
+     "dur": 8.8,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21.8,
+     "tp": -5.3,
+     "bytes": 125316
+    }
+   ]
+  },
+  "elec.lever": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -18
+   ],
+   "sources": [
+    "kenney_rpg:metalLatch",
+    "fs:807384",
+    "fs:655812"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_lever_01.ogg",
+     "dur": 0.488,
+     "channels": 1,
+     "lufsI": -20.2,
+     "lufsM": -20.2,
+     "tp": -2.55,
+     "bytes": 7340
+    },
+    {
+     "file": "fx/elec_lever_02.ogg",
+     "dur": 0.499,
+     "channels": 1,
+     "lufsI": -20.2,
+     "lufsM": -20.2,
+     "tp": -3.01,
+     "bytes": 7680
+    },
+    {
+     "file": "fx/elec_lever_03.ogg",
+     "dur": 0.499,
+     "channels": 1,
+     "lufsI": -20.1,
+     "lufsM": -20.1,
+     "tp": -2.99,
+     "bytes": 7663
+    }
+   ]
+  },
+  "elec.relay": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:807384"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_relay_01.ogg",
+     "dur": 0.385,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.18,
+     "bytes": 5934
+    },
+    {
+     "file": "fx/elec_relay_02.ogg",
+     "dur": 0.375,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.49,
+     "bytes": 5994
+    },
+    {
+     "file": "fx/elec_relay_03.ogg",
+     "dur": 0.385,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.33,
+     "bytes": 5936
+    },
+    {
+     "file": "fx/elec_relay_04.ogg",
+     "dur": 0.395,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.46,
+     "bytes": 6294
+    },
+    {
+     "file": "fx/elec_relay_05.ogg",
+     "dur": 0.395,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.41,
+     "bytes": 6291
+    },
+    {
+     "file": "fx/elec_relay_06.ogg",
+     "dur": 0.385,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.26,
+     "bytes": 5931
+    }
+   ]
+  },
+  "elec.relays": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:513818"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_relays_01.ogg",
+     "dur": 2.2,
+     "channels": 1,
+     "lufsI": -22.9,
+     "lufsM": -20.1,
+     "tp": -3.12,
+     "bytes": 31676
+    },
+    {
+     "file": "fx/elec_relays_02.ogg",
+     "dur": 2,
+     "channels": 1,
+     "lufsI": -22.7,
+     "lufsM": -20.4,
+     "tp": -3.23,
+     "bytes": 29041
+    }
+   ]
+  },
+  "elec.spark": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:655812"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_spark_01.ogg",
+     "dur": 0.105,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.64,
+     "bytes": 2120
+    },
+    {
+     "file": "fx/elec_spark_02.ogg",
+     "dur": 0.105,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.3,
+     "bytes": 2120
+    },
+    {
+     "file": "fx/elec_spark_03.ogg",
+     "dur": 0.175,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -2.66,
+     "bytes": 3250
+    },
+    {
+     "file": "fx/elec_spark_04.ogg",
+     "dur": 0.105,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -2.66,
+     "bytes": 2119
+    },
+    {
+     "file": "fx/elec_spark_05.ogg",
+     "dur": 0.235,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.68,
+     "bytes": 4098
+    },
+    {
+     "file": "fx/elec_spark_06.ogg",
+     "dur": 0.325,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -2.86,
+     "bytes": 5231
+    }
+   ]
+  },
+  "elec.zap": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:393823"
+   ],
+   "variants": [
+    {
+     "file": "fx/elec_zap_01.ogg",
+     "dur": 1.685,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -20,
+     "tp": -4.13,
+     "bytes": 24240
+    },
+    {
+     "file": "fx/elec_zap_02.ogg",
+     "dur": 2.005,
+     "channels": 1,
+     "lufsI": -22.2,
+     "lufsM": -20,
+     "tp": -4.5,
+     "bytes": 28782
+    },
+    {
+     "file": "fx/elec_zap_03.ogg",
+     "dur": 2.775,
+     "channels": 1,
+     "lufsI": -22.7,
+     "lufsM": -20,
+     "tp": -4.62,
+     "bytes": 39822
+    },
+    {
+     "file": "fx/elec_zap_04.ogg",
+     "dur": 1.415,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -20,
+     "tp": -4.32,
+     "bytes": 20579
+    },
+    {
+     "file": "fx/elec_zap_05.ogg",
+     "dur": 1.235,
+     "channels": 1,
+     "lufsI": -22.2,
+     "lufsM": -20,
+     "tp": -3.61,
+     "bytes": 18036
+    },
+    {
+     "file": "fx/elec_zap_06.ogg",
+     "dur": 1.285,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -20,
+     "tp": -4.15,
+     "bytes": 18608
+    }
+   ]
+  },
+  "fire.flick": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:637533"
+   ],
+   "variants": [
+    {
+     "file": "fx/fire_flick_01.ogg",
+     "dur": 1.099,
+     "channels": 1,
+     "lufsI": -27.7,
+     "lufsM": -24,
+     "tp": -7.88,
+     "bytes": 16183
+    },
+    {
+     "file": "fx/fire_flick_02.ogg",
+     "dur": 0.949,
+     "channels": 1,
+     "lufsI": -27.6,
+     "lufsM": -24.1,
+     "tp": -7.59,
+     "bytes": 14001
+    }
+   ]
+  },
+  "fw.burst": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:434225",
+    "fs:505264"
+   ],
+   "variants": [
+    {
+     "file": "fx/fw_burst_01.ogg",
+     "dur": 1.23,
+     "channels": 1,
+     "lufsI": -25.2,
+     "lufsM": -22.6,
+     "tp": -3.64,
+     "bytes": 17819
+    },
+    {
+     "file": "fx/fw_burst_02.ogg",
+     "dur": 1.37,
+     "channels": 1,
+     "lufsI": -25.6,
+     "lufsM": -24,
+     "tp": -3.62,
+     "bytes": 19839
+    },
+    {
+     "file": "fx/fw_burst_03.ogg",
+     "dur": 1.02,
+     "channels": 1,
+     "lufsI": -24,
+     "lufsM": -22.1,
+     "tp": -3.56,
+     "bytes": 15137
+    },
+    {
+     "file": "fx/fw_burst_04.ogg",
+     "dur": 1.2,
+     "channels": 1,
+     "lufsI": -27.1,
+     "lufsM": -22,
+     "tp": -4.67,
+     "bytes": 17542
+    }
+   ]
+  },
+  "gal.bloom": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -17
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337",
+    "fs:145513"
+   ],
+   "variants": [
+    {
+     "file": "fx/gal_bloom_01.ogg",
+     "dur": 6.5,
+     "channels": 2,
+     "lufsI": -24.3,
+     "lufsM": -17,
+     "tp": -9.15,
+     "bytes": 131871
+    },
+    {
+     "file": "fx/gal_bloom_02.ogg",
+     "dur": 6.5,
+     "channels": 2,
+     "lufsI": -23.7,
+     "lufsM": -17,
+     "tp": -9.83,
+     "bytes": 131818
+    }
+   ]
+  },
+  "gal.pad": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:772279"
+   ],
+   "variants": [
+    {
+     "file": "fx/gal_pad_01.ogg",
+     "dur": 14,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -15.6,
+     "tp": -6.24,
+     "bytes": 199111
+    }
+   ]
+  },
+  "gal.rise": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:826131"
+   ],
+   "variants": [
+    {
+     "file": "fx/gal_rise_01.ogg",
+     "dur": 4.05,
+     "channels": 1,
+     "lufsI": -28.8,
+     "lufsM": -20,
+     "tp": -10.79,
+     "bytes": 57980
+    },
+    {
+     "file": "fx/gal_rise_02.ogg",
+     "dur": 4.05,
+     "channels": 1,
+     "lufsI": -25.5,
+     "lufsM": -20,
+     "tp": -10.28,
+     "bytes": 57844
+    }
+   ]
+  },
+  "gal.twinkle": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -26
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "fx/gal_twinkle_01.ogg",
+     "dur": 1,
+     "channels": 1,
+     "lufsI": -31.4,
+     "lufsM": -26,
+     "tp": -15.39,
+     "bytes": 14884
+    },
+    {
+     "file": "fx/gal_twinkle_02.ogg",
+     "dur": 1,
+     "channels": 1,
+     "lufsI": -31.6,
+     "lufsM": -26,
+     "tp": -15.14,
+     "bytes": 14884
+    },
+    {
+     "file": "fx/gal_twinkle_03.ogg",
+     "dur": 1,
+     "channels": 1,
+     "lufsI": -31.5,
+     "lufsM": -26,
+     "tp": -15.25,
+     "bytes": 14883
+    },
+    {
+     "file": "fx/gal_twinkle_04.ogg",
+     "dur": 1,
+     "channels": 1,
+     "lufsI": -31.2,
+     "lufsM": -26,
+     "tp": -15.67,
+     "bytes": 14883
+    },
+    {
+     "file": "fx/gal_twinkle_05.ogg",
+     "dur": 1,
+     "channels": 1,
+     "lufsI": -31,
+     "lufsM": -26,
+     "tp": -16.5,
+     "bytes": 14883
+    },
+    {
+     "file": "fx/gal_twinkle_06.ogg",
+     "dur": 1,
+     "channels": 1,
+     "lufsI": -31.6,
+     "lufsM": -26,
+     "tp": -15.14,
+     "bytes": 14884
+    }
+   ]
+  },
+  "gate.bats": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:437935",
+    "fs:806574"
+   ],
+   "variants": [
+    {
+     "file": "fx/gate_bats_01.ogg",
+     "dur": 4.5,
+     "channels": 1,
+     "lufsI": -26.5,
+     "lufsM": -21,
+     "tp": -3.68,
+     "bytes": 64412
+    },
+    {
+     "file": "fx/gate_bats_02.ogg",
+     "dur": 4.5,
+     "channels": 1,
+     "lufsI": -26.3,
+     "lufsM": -21,
+     "tp": -4.16,
+     "bytes": 64198
+    }
+   ]
+  },
+  "gate.clank": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -18
+   ],
+   "sources": [
+    "fs:274766",
+    "fs:807384"
+   ],
+   "variants": [
+    {
+     "file": "fx/gate_clank_01.ogg",
+     "dur": 2.475,
+     "channels": 1,
+     "lufsI": -19.6,
+     "lufsM": -18,
+     "tp": -5.59,
+     "bytes": 35413
+    },
+    {
+     "file": "fx/gate_clank_02.ogg",
+     "dur": 3.175,
+     "channels": 1,
+     "lufsI": -20.4,
+     "lufsM": -18,
+     "tp": -5.82,
+     "bytes": 45342
+    }
+   ]
+  },
+  "gate.creak": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [
+    "fs:238289",
+    "fs:483166",
+    "fs:172411"
+   ],
+   "variants": [
+    {
+     "file": "fx/gate_creak_01.ogg",
+     "dur": 5.17,
+     "channels": 1,
+     "lufsI": -24.8,
+     "lufsM": -19,
+     "tp": -7.31,
+     "bytes": 73290
+    },
+    {
+     "file": "fx/gate_creak_02.ogg",
+     "dur": 5.835,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -19,
+     "tp": -15.23,
+     "bytes": 82644
+    },
+    {
+     "file": "fx/gate_creak_03.ogg",
+     "dur": 1.998,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -19,
+     "tp": -9.58,
+     "bytes": 28607
+    }
+   ]
+  },
+  "gate.spectral": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:826131",
+    "fs:194628"
+   ],
+   "variants": [
+    {
+     "file": "fx/gate_spectral_01.ogg",
+     "dur": 6,
+     "channels": 1,
+     "lufsI": -25.9,
+     "lufsM": -21,
+     "tp": -10.53,
+     "bytes": 85592
+    },
+    {
+     "file": "fx/gate_spectral_02.ogg",
+     "dur": 6,
+     "channels": 1,
+     "lufsI": -25.6,
+     "lufsM": -21,
+     "tp": -10.56,
+     "bytes": 85605
+    }
+   ]
+  },
+  "gate.toll": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:554655"
+   ],
+   "variants": [
+    {
+     "file": "fx/gate_toll_01.ogg",
+     "dur": 8,
+     "channels": 1,
+     "lufsI": -28,
+     "lufsM": -22,
+     "tp": -12.1,
+     "bytes": 113964
+    }
+   ]
+  },
+  "gate.wind": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:331222"
+   ],
+   "variants": [
+    {
+     "file": "fx/gate_wind_01.ogg",
+     "dur": 3.6,
+     "channels": 1,
+     "lufsI": -26.7,
+     "lufsM": -21,
+     "tp": -5.03,
+     "bytes": 51609
+    },
+    {
+     "file": "fx/gate_wind_02.ogg",
+     "dur": 5.6,
+     "channels": 1,
+     "lufsI": -27,
+     "lufsM": -21.1,
+     "tp": -4.66,
+     "bytes": 79954
+    }
+   ]
+  },
+  "grand.chimes": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "fx/grand_chimes_01.ogg",
+     "dur": 7,
+     "channels": 1,
+     "lufsI": -30,
+     "lufsM": -24,
+     "tp": -13.04,
+     "bytes": 99867
+    },
+    {
+     "file": "fx/grand_chimes_02.ogg",
+     "dur": 7,
+     "channels": 1,
+     "lufsI": -32.3,
+     "lufsM": -24,
+     "tp": -11.48,
+     "bytes": 99901
+    }
+   ]
+  },
+  "grand.choir": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:573805",
+    "fs:194628"
+   ],
+   "variants": [
+    {
+     "file": "fx/grand_choir_01.ogg",
+     "dur": 8,
+     "channels": 1,
+     "lufsI": -26,
+     "lufsM": -20,
+     "tp": -10.69,
+     "bytes": 113564
+    },
+    {
+     "file": "fx/grand_choir_02.ogg",
+     "dur": 8,
+     "channels": 1,
+     "lufsI": -24.8,
+     "lufsM": -20,
+     "tp": -12.76,
+     "bytes": 114122
+    }
+   ]
+  },
+  "grand.toll": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:139110"
+   ],
+   "variants": [
+    {
+     "file": "fx/grand_toll_01.ogg",
+     "dur": 9,
+     "channels": 1,
+     "lufsI": -26.2,
+     "lufsM": -20,
+     "tp": -9.82,
+     "bytes": 128163
+    }
+   ]
+  },
+  "hardware": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -26
+   ],
+   "sources": [
+    "kenney_rpg:beltHandle1",
+    "kenney_rpg:beltHandle2",
+    "kenney_rpg:metalClick",
+    "kenney_rpg:dropLeather"
+   ],
+   "variants": [
+    {
+     "file": "foley/hardware_01.ogg",
+     "dur": 0.267,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.87,
+     "bytes": 4381
+    },
+    {
+     "file": "foley/hardware_02.ogg",
+     "dur": 0.372,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -2.67,
+     "bytes": 5619
+    },
+    {
+     "file": "foley/hardware_03.ogg",
+     "dur": 0.402,
+     "channels": 1,
+     "lufsI": -26.8,
+     "lufsM": -26.8,
+     "tp": -3.46,
+     "bytes": 6360
+    },
+    {
+     "file": "foley/hardware_04.ogg",
+     "dur": 0.32,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -7.24,
+     "bytes": 5067
+    }
+   ]
+  },
+  "lab.charge": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:776446"
+   ],
+   "variants": [
+    {
+     "file": "fx/lab_charge_01.ogg",
+     "dur": 5.8,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -20,
+     "tp": -8.06,
+     "bytes": 82911
+    },
+    {
+     "file": "fx/lab_charge_02.ogg",
+     "dur": 6.2,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -20,
+     "tp": -8.11,
+     "bytes": 88598
+    }
+   ]
+  },
+  "lab.discharge": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -16
+   ],
+   "sources": [
+    "fs:393823",
+    "fs:567945",
+    "kenney_impact:impactPunch_heavy_002",
+    "fs:871766"
+   ],
+   "variants": [
+    {
+     "file": "fx/lab_discharge_01.ogg",
+     "dur": 4.15,
+     "channels": 1,
+     "lufsI": -20.5,
+     "lufsM": -16.3,
+     "tp": -3.16,
+     "bytes": 59196
+    },
+    {
+     "file": "fx/lab_discharge_02.ogg",
+     "dur": 4.15,
+     "channels": 1,
+     "lufsI": -21.4,
+     "lufsM": -16.7,
+     "tp": -3.51,
+     "bytes": 59207
+    }
+   ]
+  },
+  "lab.powerdown": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:785942"
+   ],
+   "variants": [
+    {
+     "file": "fx/lab_powerdown_01.ogg",
+     "dur": 3.643,
+     "channels": 1,
+     "lufsI": -26.2,
+     "lufsM": -22,
+     "tp": -13.87,
+     "bytes": 52166
+    },
+    {
+     "file": "fx/lab_powerdown_02.ogg",
+     "dur": 3.79,
+     "channels": 1,
+     "lufsI": -26,
+     "lufsM": -22,
+     "tp": -13.87,
+     "bytes": 54093
+    }
+   ]
+  },
+  "lab.tail": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:871766"
+   ],
+   "variants": [
+    {
+     "file": "fx/lab_tail_01.ogg",
+     "dur": 4,
+     "channels": 1,
+     "lufsI": -27,
+     "lufsM": -22,
+     "tp": -12.31,
+     "bytes": 57133
+    },
+    {
+     "file": "fx/lab_tail_02.ogg",
+     "dur": 4,
+     "channels": 1,
+     "lufsI": -27,
+     "lufsM": -22,
+     "tp": -12.16,
+     "bytes": 57133
+    }
+   ]
+  },
+  "leather": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:501015",
+    "fs:445159",
+    "kenney_rpg:handleSmallLeather",
+    "kenney_rpg:handleSmallLeather2"
+   ],
+   "variants": [
+    {
+     "file": "foley/leather_01.ogg",
+     "dur": 0.965,
+     "channels": 1,
+     "lufsI": -24.6,
+     "lufsM": -24,
+     "tp": -4.45,
+     "bytes": 13440
+    },
+    {
+     "file": "foley/leather_02.ogg",
+     "dur": 0.47,
+     "channels": 1,
+     "lufsI": -24.5,
+     "lufsM": -24.5,
+     "tp": -3.41,
+     "bytes": 7069
+    },
+    {
+     "file": "foley/leather_03.ogg",
+     "dur": 0.61,
+     "channels": 1,
+     "lufsI": -24.5,
+     "lufsM": -24,
+     "tp": -3.44,
+     "bytes": 8984
+    },
+    {
+     "file": "foley/leather_04.ogg",
+     "dur": 0.293,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.7,
+     "bytes": 4468
+    },
+    {
+     "file": "foley/leather_05.ogg",
+     "dur": 0.271,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -4.13,
+     "bytes": 4208
+    }
+   ]
+  },
+  "lion.growl": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:270383"
+   ],
+   "variants": [
+    {
+     "file": "fx/lion_growl_01.ogg",
+     "dur": 2.64,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -21,
+     "tp": -9.66,
+     "bytes": 37555
+    },
+    {
+     "file": "fx/lion_growl_02.ogg",
+     "dur": 2.8,
+     "channels": 1,
+     "lufsI": -24.1,
+     "lufsM": -21,
+     "tp": -10.37,
+     "bytes": 39541
+    }
+   ]
+  },
+  "lion.roar": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -16
+   ],
+   "sources": [
+    "fs:69572",
+    "kenney_impact:impactPunch_heavy_001"
+   ],
+   "variants": [
+    {
+     "file": "fx/lion_roar_01.ogg",
+     "dur": 4.214,
+     "channels": 1,
+     "lufsI": -20.1,
+     "lufsM": -16,
+     "tp": -5.29,
+     "bytes": 59182
+    },
+    {
+     "file": "fx/lion_roar_02.ogg",
+     "dur": 4.214,
+     "channels": 1,
+     "lufsI": -20.7,
+     "lufsM": -16,
+     "tp": -4.28,
+     "bytes": 59451
+    }
+   ]
+  },
+  "nv.am_michael.chuckle": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/chuckle_01.ogg",
+     "dur": 0.732,
+     "channels": 1,
+     "lufsI": -22.3,
+     "lufsM": -21,
+     "tp": -7.5,
+     "bytes": 10661
+    },
+    {
+     "file": "voice/am_michael/chuckle_02.ogg",
+     "dur": 0.577,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4,
+     "bytes": 8807
+    },
+    {
+     "file": "voice/am_michael/chuckle_03.ogg",
+     "dur": 0.817,
+     "channels": 1,
+     "lufsI": -22.7,
+     "lufsM": -21,
+     "tp": -6.29,
+     "bytes": 12210
+    },
+    {
+     "file": "voice/am_michael/chuckle_04.ogg",
+     "dur": 0.967,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21,
+     "tp": -6.41,
+     "bytes": 14125
+    },
+    {
+     "file": "voice/am_michael/chuckle_05.ogg",
+     "dur": 0.777,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -21,
+     "tp": -7.57,
+     "bytes": 11641
+    },
+    {
+     "file": "voice/am_michael/chuckle_06.ogg",
+     "dur": 0.732,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -21,
+     "tp": -6.55,
+     "bytes": 10740
+    }
+   ]
+  },
+  "nv.am_michael.curious": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/curious_01.ogg",
+     "dur": 0.567,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.45,
+     "bytes": 8468
+    },
+    {
+     "file": "voice/am_michael/curious_02.ogg",
+     "dur": 0.717,
+     "channels": 1,
+     "lufsI": -21.9,
+     "lufsM": -21,
+     "tp": -6.2,
+     "bytes": 10710
+    },
+    {
+     "file": "voice/am_michael/curious_03.ogg",
+     "dur": 0.532,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.32,
+     "bytes": 7906
+    },
+    {
+     "file": "voice/am_michael/curious_04.ogg",
+     "dur": 0.842,
+     "channels": 1,
+     "lufsI": -22.8,
+     "lufsM": -21,
+     "tp": -8.5,
+     "bytes": 12392
+    }
+   ]
+  },
+  "nv.am_michael.delight": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/delight_01.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -5.73,
+     "bytes": 8112
+    },
+    {
+     "file": "voice/am_michael/delight_02.ogg",
+     "dur": 0.577,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.82,
+     "bytes": 8897
+    },
+    {
+     "file": "voice/am_michael/delight_03.ogg",
+     "dur": 0.627,
+     "channels": 1,
+     "lufsI": -21.7,
+     "lufsM": -21,
+     "tp": -6.85,
+     "bytes": 9278
+    }
+   ]
+  },
+  "nv.am_michael.effort": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/effort_01.ogg",
+     "dur": 0.577,
+     "channels": 1,
+     "lufsI": -19.4,
+     "lufsM": -19.4,
+     "tp": -3.67,
+     "bytes": 8893
+    },
+    {
+     "file": "voice/am_michael/effort_02.ogg",
+     "dur": 0.562,
+     "channels": 1,
+     "lufsI": -19.7,
+     "lufsM": -19.7,
+     "tp": -3.7,
+     "bytes": 8446
+    },
+    {
+     "file": "voice/am_michael/effort_03.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -20.1,
+     "lufsM": -20.1,
+     "tp": -3.65,
+     "bytes": 8223
+    },
+    {
+     "file": "voice/am_michael/effort_04.ogg",
+     "dur": 0.617,
+     "channels": 1,
+     "lufsI": -20.7,
+     "lufsM": -19,
+     "tp": -5.37,
+     "bytes": 9308
+    },
+    {
+     "file": "voice/am_michael/effort_05.ogg",
+     "dur": 0.587,
+     "channels": 1,
+     "lufsI": -19.1,
+     "lufsM": -19,
+     "tp": -3.67,
+     "bytes": 8696
+    }
+   ]
+  },
+  "nv.am_michael.relieved": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/relieved_01.ogg",
+     "dur": 0.527,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -21,
+     "tp": -5.99,
+     "bytes": 7887
+    },
+    {
+     "file": "voice/am_michael/relieved_02.ogg",
+     "dur": 0.847,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -21,
+     "tp": -8.99,
+     "bytes": 12402
+    },
+    {
+     "file": "voice/am_michael/relieved_03.ogg",
+     "dur": 0.577,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.77,
+     "bytes": 8890
+    },
+    {
+     "file": "voice/am_michael/relieved_04.ogg",
+     "dur": 0.662,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -8.25,
+     "bytes": 9854
+    }
+   ]
+  },
+  "nv.am_michael.roar": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/roar_01.ogg",
+     "dur": 0.717,
+     "channels": 1,
+     "lufsI": -20.6,
+     "lufsM": -19,
+     "tp": -5.42,
+     "bytes": 10821
+    },
+    {
+     "file": "voice/am_michael/roar_02.ogg",
+     "dur": 0.632,
+     "channels": 1,
+     "lufsI": -20.1,
+     "lufsM": -19,
+     "tp": -3.68,
+     "bytes": 9341
+    },
+    {
+     "file": "voice/am_michael/roar_03.ogg",
+     "dur": 0.852,
+     "channels": 1,
+     "lufsI": -20,
+     "lufsM": -19,
+     "tp": -4.8,
+     "bytes": 12348
+    }
+   ]
+  },
+  "nv.am_michael.surprised": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/surprised_01.ogg",
+     "dur": 0.627,
+     "channels": 1,
+     "lufsI": -21.7,
+     "lufsM": -21,
+     "tp": -6.85,
+     "bytes": 9278
+    },
+    {
+     "file": "voice/am_michael/surprised_02.ogg",
+     "dur": 0.727,
+     "channels": 1,
+     "lufsI": -22.7,
+     "lufsM": -21,
+     "tp": -6.7,
+     "bytes": 10683
+    },
+    {
+     "file": "voice/am_michael/surprised_03.ogg",
+     "dur": 0.597,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -7.09,
+     "bytes": 9033
+    },
+    {
+     "file": "voice/am_michael/surprised_04.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -6.39,
+     "bytes": 8402
+    },
+    {
+     "file": "voice/am_michael/surprised_05.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -6.82,
+     "bytes": 8428
+    }
+   ]
+  },
+  "nv.am_michael.thoughtful": {
+   "cat": "voice/am_michael",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_michael/thoughtful_01.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.12,
+     "bytes": 8510
+    },
+    {
+     "file": "voice/am_michael/thoughtful_02.ogg",
+     "dur": 0.752,
+     "channels": 1,
+     "lufsI": -21.7,
+     "lufsM": -21,
+     "tp": -7.83,
+     "bytes": 10940
+    },
+    {
+     "file": "voice/am_michael/thoughtful_03.ogg",
+     "dur": 0.792,
+     "channels": 1,
+     "lufsI": -22.1,
+     "lufsM": -21,
+     "tp": -6.25,
+     "bytes": 11510
+    },
+    {
+     "file": "voice/am_michael/thoughtful_04.ogg",
+     "dur": 0.537,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.14,
+     "bytes": 8217
+    },
+    {
+     "file": "voice/am_michael/thoughtful_05.ogg",
+     "dur": 0.662,
+     "channels": 1,
+     "lufsI": -21.9,
+     "lufsM": -21,
+     "tp": -8.22,
+     "bytes": 9909
+    }
+   ]
+  },
+  "nv.am_onyx.chuckle": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/chuckle_01.ogg",
+     "dur": 0.722,
+     "channels": 1,
+     "lufsI": -22.3,
+     "lufsM": -21,
+     "tp": -6.24,
+     "bytes": 10734
+    },
+    {
+     "file": "voice/am_onyx/chuckle_02.ogg",
+     "dur": 0.497,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.46,
+     "bytes": 7779
+    },
+    {
+     "file": "voice/am_onyx/chuckle_03.ogg",
+     "dur": 0.827,
+     "channels": 1,
+     "lufsI": -22.3,
+     "lufsM": -21,
+     "tp": -5.44,
+     "bytes": 12122
+    },
+    {
+     "file": "voice/am_onyx/chuckle_04.ogg",
+     "dur": 1.062,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21,
+     "tp": -7.36,
+     "bytes": 15552
+    },
+    {
+     "file": "voice/am_onyx/chuckle_05.ogg",
+     "dur": 0.792,
+     "channels": 1,
+     "lufsI": -22.2,
+     "lufsM": -21,
+     "tp": -5.14,
+     "bytes": 11548
+    },
+    {
+     "file": "voice/am_onyx/chuckle_06.ogg",
+     "dur": 0.692,
+     "channels": 1,
+     "lufsI": -22.1,
+     "lufsM": -21,
+     "tp": -5.49,
+     "bytes": 10134
+    }
+   ]
+  },
+  "nv.am_onyx.curious": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/curious_01.ogg",
+     "dur": 0.567,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -4.4,
+     "bytes": 8629
+    },
+    {
+     "file": "voice/am_onyx/curious_02.ogg",
+     "dur": 0.727,
+     "channels": 1,
+     "lufsI": -22.3,
+     "lufsM": -21,
+     "tp": -5.13,
+     "bytes": 10887
+    },
+    {
+     "file": "voice/am_onyx/curious_03.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.17,
+     "bytes": 6932
+    },
+    {
+     "file": "voice/am_onyx/curious_04.ogg",
+     "dur": 0.927,
+     "channels": 1,
+     "lufsI": -23.4,
+     "lufsM": -21,
+     "tp": -7.85,
+     "bytes": 13543
+    }
+   ]
+  },
+  "nv.am_onyx.delight": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/delight_01.ogg",
+     "dur": 0.457,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.09,
+     "bytes": 7215
+    },
+    {
+     "file": "voice/am_onyx/delight_02.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -6.03,
+     "bytes": 6932
+    },
+    {
+     "file": "voice/am_onyx/delight_03.ogg",
+     "dur": 0.557,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -6.3,
+     "bytes": 8628
+    }
+   ]
+  },
+  "nv.am_onyx.effort": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/effort_01.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -19,
+     "lufsM": -19,
+     "tp": -4,
+     "bytes": 6932
+    },
+    {
+     "file": "voice/am_onyx/effort_02.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -19.9,
+     "lufsM": -19.8,
+     "tp": -3.69,
+     "bytes": 8344
+    },
+    {
+     "file": "voice/am_onyx/effort_03.ogg",
+     "dur": 0.437,
+     "channels": 1,
+     "lufsI": -19.8,
+     "lufsM": -19.8,
+     "tp": -3.58,
+     "bytes": 6927
+    },
+    {
+     "file": "voice/am_onyx/effort_04.ogg",
+     "dur": 0.527,
+     "channels": 1,
+     "lufsI": -19.2,
+     "lufsM": -19,
+     "tp": -4.31,
+     "bytes": 8063
+    },
+    {
+     "file": "voice/am_onyx/effort_05.ogg",
+     "dur": 0.502,
+     "channels": 1,
+     "lufsI": -19.6,
+     "lufsM": -19.5,
+     "tp": -3.7,
+     "bytes": 7778
+    }
+   ]
+  },
+  "nv.am_onyx.relieved": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/relieved_01.ogg",
+     "dur": 0.432,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.47,
+     "bytes": 6649
+    },
+    {
+     "file": "voice/am_onyx/relieved_02.ogg",
+     "dur": 0.717,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -21,
+     "tp": -6.66,
+     "bytes": 10759
+    },
+    {
+     "file": "voice/am_onyx/relieved_03.ogg",
+     "dur": 0.477,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.89,
+     "bytes": 7495
+    },
+    {
+     "file": "voice/am_onyx/relieved_04.ogg",
+     "dur": 0.567,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -8.08,
+     "bytes": 8628
+    }
+   ]
+  },
+  "nv.am_onyx.roar": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/roar_01.ogg",
+     "dur": 0.682,
+     "channels": 1,
+     "lufsI": -19.5,
+     "lufsM": -19,
+     "tp": -4.45,
+     "bytes": 10148
+    },
+    {
+     "file": "voice/am_onyx/roar_02.ogg",
+     "dur": 0.652,
+     "channels": 1,
+     "lufsI": -19.4,
+     "lufsM": -19,
+     "tp": -4.33,
+     "bytes": 9705
+    },
+    {
+     "file": "voice/am_onyx/roar_03.ogg",
+     "dur": 0.872,
+     "channels": 1,
+     "lufsI": -20.1,
+     "lufsM": -19,
+     "tp": -5.24,
+     "bytes": 12668
+    }
+   ]
+  },
+  "nv.am_onyx.surprised": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/surprised_01.ogg",
+     "dur": 0.557,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -6.3,
+     "bytes": 8628
+    },
+    {
+     "file": "voice/am_onyx/surprised_02.ogg",
+     "dur": 0.727,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -21,
+     "tp": -6.28,
+     "bytes": 10827
+    },
+    {
+     "file": "voice/am_onyx/surprised_03.ogg",
+     "dur": 0.557,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -6.04,
+     "bytes": 8625
+    },
+    {
+     "file": "voice/am_onyx/surprised_04.ogg",
+     "dur": 0.427,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -8.62,
+     "bytes": 6649
+    },
+    {
+     "file": "voice/am_onyx/surprised_05.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -6.53,
+     "bytes": 8629
+    }
+   ]
+  },
+  "nv.am_onyx.thoughtful": {
+   "cat": "voice/am_onyx",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_onyx/thoughtful_01.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.88,
+     "bytes": 8345
+    },
+    {
+     "file": "voice/am_onyx/thoughtful_02.ogg",
+     "dur": 0.727,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -21,
+     "tp": -6.05,
+     "bytes": 10725
+    },
+    {
+     "file": "voice/am_onyx/thoughtful_03.ogg",
+     "dur": 0.817,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -21,
+     "tp": -5.61,
+     "bytes": 12159
+    },
+    {
+     "file": "voice/am_onyx/thoughtful_04.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.3,
+     "bytes": 6932
+    },
+    {
+     "file": "voice/am_onyx/thoughtful_05.ogg",
+     "dur": 0.682,
+     "channels": 1,
+     "lufsI": -21.9,
+     "lufsM": -21,
+     "tp": -4.59,
+     "bytes": 10276
+    }
+   ]
+  },
+  "nv.am_puck.chuckle": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/chuckle_01.ogg",
+     "dur": 0.597,
+     "channels": 1,
+     "lufsI": -21.3,
+     "lufsM": -21,
+     "tp": -5.06,
+     "bytes": 8975
+    },
+    {
+     "file": "voice/am_puck/chuckle_02.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -21,
+     "tp": -4.85,
+     "bytes": 8245
+    },
+    {
+     "file": "voice/am_puck/chuckle_03.ogg",
+     "dur": 0.647,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -21,
+     "tp": -6.12,
+     "bytes": 9581
+    },
+    {
+     "file": "voice/am_puck/chuckle_04.ogg",
+     "dur": 0.842,
+     "channels": 1,
+     "lufsI": -22.2,
+     "lufsM": -21,
+     "tp": -7.06,
+     "bytes": 12374
+    },
+    {
+     "file": "voice/am_puck/chuckle_05.ogg",
+     "dur": 0.622,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -21,
+     "tp": -6.4,
+     "bytes": 9255
+    },
+    {
+     "file": "voice/am_puck/chuckle_06.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21.4,
+     "lufsM": -21,
+     "tp": -5.04,
+     "bytes": 8371
+    }
+   ]
+  },
+  "nv.am_puck.curious": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/curious_01.ogg",
+     "dur": 0.507,
+     "channels": 1,
+     "lufsI": -21.5,
+     "lufsM": -21,
+     "tp": -4.63,
+     "bytes": 7634
+    },
+    {
+     "file": "voice/am_puck/curious_02.ogg",
+     "dur": 0.607,
+     "channels": 1,
+     "lufsI": -21.9,
+     "lufsM": -21,
+     "tp": -7.03,
+     "bytes": 9021
+    },
+    {
+     "file": "voice/am_puck/curious_03.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -3.91,
+     "bytes": 6739
+    },
+    {
+     "file": "voice/am_puck/curious_04.ogg",
+     "dur": 0.627,
+     "channels": 1,
+     "lufsI": -22.1,
+     "lufsM": -21,
+     "tp": -6.77,
+     "bytes": 9328
+    }
+   ]
+  },
+  "nv.am_puck.delight": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/delight_01.ogg",
+     "dur": 0.447,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.06,
+     "bytes": 6721
+    },
+    {
+     "file": "voice/am_puck/delight_02.ogg",
+     "dur": 0.472,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.38,
+     "bytes": 6995
+    },
+    {
+     "file": "voice/am_puck/delight_03.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.25,
+     "bytes": 6719
+    }
+   ]
+  },
+  "nv.am_puck.effort": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/effort_01.ogg",
+     "dur": 0.472,
+     "channels": 1,
+     "lufsI": -19.6,
+     "lufsM": -19.6,
+     "tp": -3.56,
+     "bytes": 6997
+    },
+    {
+     "file": "voice/am_puck/effort_02.ogg",
+     "dur": 0.507,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -20.8,
+     "tp": -3.54,
+     "bytes": 7773
+    },
+    {
+     "file": "voice/am_puck/effort_03.ogg",
+     "dur": 0.487,
+     "channels": 1,
+     "lufsI": -20.8,
+     "lufsM": -20.8,
+     "tp": -3.61,
+     "bytes": 7492
+    },
+    {
+     "file": "voice/am_puck/effort_04.ogg",
+     "dur": 0.507,
+     "channels": 1,
+     "lufsI": -20,
+     "lufsM": -19,
+     "tp": -4.49,
+     "bytes": 7635
+    },
+    {
+     "file": "voice/am_puck/effort_05.ogg",
+     "dur": 0.472,
+     "channels": 1,
+     "lufsI": -20,
+     "lufsM": -20,
+     "tp": -3.57,
+     "bytes": 6988
+    }
+   ]
+  },
+  "nv.am_puck.relieved": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/relieved_01.ogg",
+     "dur": 0.472,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.96,
+     "bytes": 6996
+    },
+    {
+     "file": "voice/am_puck/relieved_02.ogg",
+     "dur": 0.752,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -21,
+     "tp": -8.06,
+     "bytes": 10914
+    },
+    {
+     "file": "voice/am_puck/relieved_03.ogg",
+     "dur": 0.507,
+     "channels": 1,
+     "lufsI": -21.3,
+     "lufsM": -21,
+     "tp": -4.43,
+     "bytes": 7619
+    },
+    {
+     "file": "voice/am_puck/relieved_04.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -6.94,
+     "bytes": 8394
+    }
+   ]
+  },
+  "nv.am_puck.roar": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/roar_01.ogg",
+     "dur": 0.587,
+     "channels": 1,
+     "lufsI": -19.5,
+     "lufsM": -19,
+     "tp": -5.54,
+     "bytes": 8684
+    },
+    {
+     "file": "voice/am_puck/roar_02.ogg",
+     "dur": 0.532,
+     "channels": 1,
+     "lufsI": -19.4,
+     "lufsM": -19,
+     "tp": -4.92,
+     "bytes": 7791
+    },
+    {
+     "file": "voice/am_puck/roar_03.ogg",
+     "dur": 0.632,
+     "channels": 1,
+     "lufsI": -19.8,
+     "lufsM": -19,
+     "tp": -4.75,
+     "bytes": 9231
+    }
+   ]
+  },
+  "nv.am_puck.surprised": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/surprised_01.ogg",
+     "dur": 0.452,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.25,
+     "bytes": 6719
+    },
+    {
+     "file": "voice/am_puck/surprised_02.ogg",
+     "dur": 0.537,
+     "channels": 1,
+     "lufsI": -21.3,
+     "lufsM": -21,
+     "tp": -5.26,
+     "bytes": 8149
+    },
+    {
+     "file": "voice/am_puck/surprised_03.ogg",
+     "dur": 0.487,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -5.24,
+     "bytes": 7315
+    },
+    {
+     "file": "voice/am_puck/surprised_04.ogg",
+     "dur": 0.497,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -7.08,
+     "bytes": 7639
+    },
+    {
+     "file": "voice/am_puck/surprised_05.ogg",
+     "dur": 0.517,
+     "channels": 1,
+     "lufsI": -21.5,
+     "lufsM": -21,
+     "tp": -6.51,
+     "bytes": 7910
+    }
+   ]
+  },
+  "nv.am_puck.thoughtful": {
+   "cat": "voice/am_puck",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/am_puck/thoughtful_01.ogg",
+     "dur": 0.492,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.16,
+     "bytes": 7495
+    },
+    {
+     "file": "voice/am_puck/thoughtful_02.ogg",
+     "dur": 0.597,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -6.26,
+     "bytes": 9048
+    },
+    {
+     "file": "voice/am_puck/thoughtful_03.ogg",
+     "dur": 0.602,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -21,
+     "tp": -5.68,
+     "bytes": 9085
+    },
+    {
+     "file": "voice/am_puck/thoughtful_04.ogg",
+     "dur": 0.497,
+     "channels": 1,
+     "lufsI": -21,
+     "lufsM": -21,
+     "tp": -4.45,
+     "bytes": 7589
+    },
+    {
+     "file": "voice/am_puck/thoughtful_05.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -21.3,
+     "lufsM": -21,
+     "tp": -5.05,
+     "bytes": 8102
+    }
+   ]
+  },
+  "nv.bm_lewis.chuckle": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/chuckle_01.ogg",
+     "dur": 0.727,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21,
+     "tp": -4.54,
+     "bytes": 10682
+    },
+    {
+     "file": "voice/bm_lewis/chuckle_02.ogg",
+     "dur": 0.567,
+     "channels": 1,
+     "lufsI": -21.3,
+     "lufsM": -21.2,
+     "tp": -3.61,
+     "bytes": 8551
+    },
+    {
+     "file": "voice/bm_lewis/chuckle_03.ogg",
+     "dur": 0.822,
+     "channels": 1,
+     "lufsI": -23.6,
+     "lufsM": -21,
+     "tp": -4.59,
+     "bytes": 12100
+    },
+    {
+     "file": "voice/bm_lewis/chuckle_04.ogg",
+     "dur": 1.062,
+     "channels": 1,
+     "lufsI": -23.7,
+     "lufsM": -21,
+     "tp": -3.77,
+     "bytes": 15493
+    },
+    {
+     "file": "voice/bm_lewis/chuckle_05.ogg",
+     "dur": 0.792,
+     "channels": 1,
+     "lufsI": -23.1,
+     "lufsM": -21,
+     "tp": -6.56,
+     "bytes": 11510
+    },
+    {
+     "file": "voice/bm_lewis/chuckle_06.ogg",
+     "dur": 0.742,
+     "channels": 1,
+     "lufsI": -23.1,
+     "lufsM": -21,
+     "tp": -5.73,
+     "bytes": 10943
+    }
+   ]
+  },
+  "nv.bm_lewis.curious": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/curious_01.ogg",
+     "dur": 0.557,
+     "channels": 1,
+     "lufsI": -21.4,
+     "lufsM": -21.3,
+     "tp": -3.55,
+     "bytes": 8508
+    },
+    {
+     "file": "voice/bm_lewis/curious_02.ogg",
+     "dur": 0.717,
+     "channels": 1,
+     "lufsI": -22.2,
+     "lufsM": -21,
+     "tp": -5.14,
+     "bytes": 10685
+    },
+    {
+     "file": "voice/bm_lewis/curious_03.ogg",
+     "dur": 0.532,
+     "channels": 1,
+     "lufsI": -21.4,
+     "lufsM": -21.3,
+     "tp": -3.6,
+     "bytes": 7846
+    },
+    {
+     "file": "voice/bm_lewis/curious_04.ogg",
+     "dur": 0.822,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -21,
+     "tp": -6.9,
+     "bytes": 12128
+    }
+   ]
+  },
+  "nv.bm_lewis.delight": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/delight_01.ogg",
+     "dur": 0.522,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -21,
+     "tp": -5.34,
+     "bytes": 7831
+    },
+    {
+     "file": "voice/bm_lewis/delight_02.ogg",
+     "dur": 0.562,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -3.67,
+     "bytes": 8422
+    },
+    {
+     "file": "voice/bm_lewis/delight_03.ogg",
+     "dur": 0.542,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -21,
+     "tp": -4.38,
+     "bytes": 8153
+    }
+   ]
+  },
+  "nv.bm_lewis.effort": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/effort_01.ogg",
+     "dur": 0.562,
+     "channels": 1,
+     "lufsI": -20.3,
+     "lufsM": -20.2,
+     "tp": -3.48,
+     "bytes": 8423
+    },
+    {
+     "file": "voice/bm_lewis/effort_02.ogg",
+     "dur": 0.557,
+     "channels": 1,
+     "lufsI": -20.7,
+     "lufsM": -20.6,
+     "tp": -3.46,
+     "bytes": 8432
+    },
+    {
+     "file": "voice/bm_lewis/effort_03.ogg",
+     "dur": 0.542,
+     "channels": 1,
+     "lufsI": -20.8,
+     "lufsM": -20.6,
+     "tp": -3.62,
+     "bytes": 8340
+    },
+    {
+     "file": "voice/bm_lewis/effort_04.ogg",
+     "dur": 0.557,
+     "channels": 1,
+     "lufsI": -19.7,
+     "lufsM": -19,
+     "tp": -3.88,
+     "bytes": 8341
+    },
+    {
+     "file": "voice/bm_lewis/effort_05.ogg",
+     "dur": 0.552,
+     "channels": 1,
+     "lufsI": -20.4,
+     "lufsM": -19.5,
+     "tp": -3.65,
+     "bytes": 8126
+    }
+   ]
+  },
+  "nv.bm_lewis.relieved": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/relieved_01.ogg",
+     "dur": 0.527,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -21,
+     "tp": -5.15,
+     "bytes": 7848
+    },
+    {
+     "file": "voice/bm_lewis/relieved_02.ogg",
+     "dur": 0.767,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -21.1,
+     "tp": -4.37,
+     "bytes": 11244
+    },
+    {
+     "file": "voice/bm_lewis/relieved_03.ogg",
+     "dur": 0.547,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21.1,
+     "tp": -3.72,
+     "bytes": 8149
+    },
+    {
+     "file": "voice/bm_lewis/relieved_04.ogg",
+     "dur": 0.622,
+     "channels": 1,
+     "lufsI": -21.7,
+     "lufsM": -21,
+     "tp": -6.81,
+     "bytes": 9263
+    }
+   ]
+  },
+  "nv.bm_lewis.roar": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -19
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/roar_01.ogg",
+     "dur": 0.642,
+     "channels": 1,
+     "lufsI": -19.8,
+     "lufsM": -19,
+     "tp": -4.62,
+     "bytes": 9552
+    },
+    {
+     "file": "voice/bm_lewis/roar_02.ogg",
+     "dur": 0.642,
+     "channels": 1,
+     "lufsI": -20.5,
+     "lufsM": -19,
+     "tp": -4,
+     "bytes": 9546
+    },
+    {
+     "file": "voice/bm_lewis/roar_03.ogg",
+     "dur": 0.757,
+     "channels": 1,
+     "lufsI": -20.8,
+     "lufsM": -19,
+     "tp": -7.24,
+     "bytes": 11172
+    }
+   ]
+  },
+  "nv.bm_lewis.surprised": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/surprised_01.ogg",
+     "dur": 0.542,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -21,
+     "tp": -4.38,
+     "bytes": 8153
+    },
+    {
+     "file": "voice/bm_lewis/surprised_02.ogg",
+     "dur": 0.647,
+     "channels": 1,
+     "lufsI": -22.9,
+     "lufsM": -21,
+     "tp": -6.15,
+     "bytes": 9548
+    },
+    {
+     "file": "voice/bm_lewis/surprised_03.ogg",
+     "dur": 0.527,
+     "channels": 1,
+     "lufsI": -21.6,
+     "lufsM": -21,
+     "tp": -5.41,
+     "bytes": 7855
+    },
+    {
+     "file": "voice/bm_lewis/surprised_04.ogg",
+     "dur": 0.542,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -21,
+     "tp": -5.06,
+     "bytes": 8105
+    },
+    {
+     "file": "voice/bm_lewis/surprised_05.ogg",
+     "dur": 0.572,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21,
+     "tp": -4.99,
+     "bytes": 8403
+    }
+   ]
+  },
+  "nv.bm_lewis.thoughtful": {
+   "cat": "voice/bm_lewis",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [],
+   "variants": [
+    {
+     "file": "voice/bm_lewis/thoughtful_01.ogg",
+     "dur": 0.567,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -3.69,
+     "bytes": 8623
+    },
+    {
+     "file": "voice/bm_lewis/thoughtful_02.ogg",
+     "dur": 0.732,
+     "channels": 1,
+     "lufsI": -22,
+     "lufsM": -21,
+     "tp": -5.04,
+     "bytes": 10766
+    },
+    {
+     "file": "voice/bm_lewis/thoughtful_03.ogg",
+     "dur": 0.777,
+     "channels": 1,
+     "lufsI": -22.9,
+     "lufsM": -21,
+     "tp": -4.74,
+     "bytes": 11459
+    },
+    {
+     "file": "voice/bm_lewis/thoughtful_04.ogg",
+     "dur": 0.537,
+     "channels": 1,
+     "lufsI": -21.1,
+     "lufsM": -21,
+     "tp": -3.78,
+     "bytes": 8057
+    },
+    {
+     "file": "voice/bm_lewis/thoughtful_05.ogg",
+     "dur": 0.647,
+     "channels": 1,
+     "lufsI": -22.8,
+     "lufsM": -21,
+     "tp": -5.01,
+     "bytes": 9537
+    }
+   ]
+  },
+  "pumpkin.ignite": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -18
+   ],
+   "sources": [
+    "fs:637533",
+    "fs:592572"
+   ],
+   "variants": [
+    {
+     "file": "fx/pumpkin_ignite_01.ogg",
+     "dur": 2.62,
+     "channels": 1,
+     "lufsI": -22.1,
+     "lufsM": -18.7,
+     "tp": -3.57,
+     "bytes": 37704
+    },
+    {
+     "file": "fx/pumpkin_ignite_02.ogg",
+     "dur": 2.62,
+     "channels": 1,
+     "lufsI": -22.5,
+     "lufsM": -18.7,
+     "tp": -3.53,
+     "bytes": 37712
+    }
+   ]
+  },
+  "pumpkin.magic": {
+   "cat": "fx",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "fx/pumpkin_magic_01.ogg",
+     "dur": 3.32,
+     "channels": 1,
+     "lufsI": -24.4,
+     "lufsM": -20,
+     "tp": -9.99,
+     "bytes": 44695
+    },
+    {
+     "file": "fx/pumpkin_magic_02.ogg",
+     "dur": 3.32,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -20,
+     "tp": -11,
+     "bytes": 45532
+    }
+   ]
+  },
+  "pumpkin.whisper": {
+   "cat": "fx",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -22
+   ],
+   "sources": [
+    "fs:194628",
+    "fs:656439"
+   ],
+   "variants": [
+    {
+     "file": "fx/pumpkin_whisper_01.ogg",
+     "dur": 5.296,
+     "channels": 1,
+     "lufsI": -26.4,
+     "lufsM": -22,
+     "tp": -10.86,
+     "bytes": 74715
+    },
+    {
+     "file": "fx/pumpkin_whisper_02.ogg",
+     "dur": 5.296,
+     "channels": 1,
+     "lufsI": -24.5,
+     "lufsM": -22,
+     "tp": -10.43,
+     "bytes": 74717
+    },
+    {
+     "file": "fx/pumpkin_whisper_03.ogg",
+     "dur": 5.296,
+     "channels": 1,
+     "lufsI": -25.1,
+     "lufsM": -22,
+     "tp": -10.14,
+     "bytes": 74440
+    }
+   ]
+  },
+  "rain.drips": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:628404"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_drips_01.ogg",
+     "dur": 14,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -20.1,
+     "tp": -6.01,
+     "bytes": 199042
+    }
+   ]
+  },
+  "rain.far": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:200273"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_far_01.ogg",
+     "dur": 24,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21,
+     "tp": -3.49,
+     "bytes": 340807
+    }
+   ]
+  },
+  "rain.heavy": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:640651"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_heavy_01.ogg",
+     "dur": 20,
+     "channels": 1,
+     "lufsI": -23.5,
+     "lufsM": -21,
+     "tp": -3.33,
+     "bytes": 284135
+    }
+   ]
+  },
+  "rain.leaves": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:672696"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_leaves_01.ogg",
+     "dur": 18,
+     "channels": 1,
+     "lufsI": -24.7,
+     "lufsM": -22,
+     "tp": -1.55,
+     "bytes": 255314
+    }
+   ]
+  },
+  "rain.metal": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:637780"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_metal_01.ogg",
+     "dur": 20,
+     "channels": 1,
+     "lufsI": -23.2,
+     "lufsM": -20.2,
+     "tp": -2.82,
+     "bytes": 284138
+    }
+   ]
+  },
+  "rain.near": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:96729"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_near_01.ogg",
+     "dur": 22,
+     "channels": 1,
+     "lufsI": -23.4,
+     "lufsM": -19.6,
+     "tp": -2.71,
+     "bytes": 312067
+    }
+   ]
+  },
+  "rain.puddle": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:202898"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_puddle_01.ogg",
+     "dur": 14,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21.7,
+     "tp": -3.37,
+     "bytes": 199019
+    }
+   ]
+  },
+  "rain.stone": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": true,
+   "level": [
+    "I",
+    -23
+   ],
+   "sources": [
+    "fs:486270"
+   ],
+   "variants": [
+    {
+     "file": "weather/rain_stone_01.ogg",
+     "dur": 20,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21.5,
+     "tp": -10.04,
+     "bytes": 284172
+    }
+   ]
+  },
+  "step.brush": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:637547"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_brush_01.ogg",
+     "dur": 0.26,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -4.37,
+     "bytes": 4232
+    },
+    {
+     "file": "foley/step_brush_02.ogg",
+     "dur": 0.13,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.61,
+     "bytes": 2299
+    },
+    {
+     "file": "foley/step_brush_03.ogg",
+     "dur": 0.16,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -4.58,
+     "bytes": 2860
+    },
+    {
+     "file": "foley/step_brush_04.ogg",
+     "dur": 0.14,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.47,
+     "bytes": 2672
+    },
+    {
+     "file": "foley/step_brush_05.ogg",
+     "dur": 0.43,
+     "channels": 1,
+     "lufsI": -20,
+     "lufsM": -20,
+     "tp": -6.51,
+     "bytes": 6495
+    }
+   ]
+  },
+  "step.grass": {
+   "cat": "foley",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:521587"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_grass_01.ogg",
+     "dur": 0.514,
+     "channels": 1,
+     "lufsI": -23.3,
+     "lufsM": -23.3,
+     "tp": -3.74,
+     "bytes": 8035
+    },
+    {
+     "file": "foley/step_grass_02.ogg",
+     "dur": 0.359,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.4,
+     "bytes": 5796
+    },
+    {
+     "file": "foley/step_grass_03.ogg",
+     "dur": 0.355,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.82,
+     "bytes": 5799
+    },
+    {
+     "file": "foley/step_grass_04.ogg",
+     "dur": 0.408,
+     "channels": 1,
+     "lufsI": -24.7,
+     "lufsM": -24.7,
+     "tp": -3.56,
+     "bytes": 6215
+    },
+    {
+     "file": "foley/step_grass_05.ogg",
+     "dur": 0.432,
+     "channels": 1,
+     "lufsI": -23.6,
+     "lufsM": -23.6,
+     "tp": -3.35,
+     "bytes": 6554
+    },
+    {
+     "file": "foley/step_grass_06.ogg",
+     "dur": 0.355,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.41,
+     "bytes": 5798
+    }
+   ]
+  },
+  "step.scuff": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:667284",
+    "fs:321488"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_scuff_01.ogg",
+     "dur": 0.28,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.4,
+     "bytes": 4666
+    },
+    {
+     "file": "foley/step_scuff_02.ogg",
+     "dur": 0.3,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.04,
+     "bytes": 4911
+    },
+    {
+     "file": "foley/step_scuff_03.ogg",
+     "dur": 0.32,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.64,
+     "bytes": 5232
+    },
+    {
+     "file": "foley/step_scuff_04.ogg",
+     "dur": 0.26,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.55,
+     "bytes": 4330
+    },
+    {
+     "file": "foley/step_scuff_05.ogg",
+     "dur": 0.3,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.64,
+     "bytes": 4950
+    }
+   ]
+  },
+  "step.soil": {
+   "cat": "foley",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:548384"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_soil_01.ogg",
+     "dur": 0.447,
+     "channels": 1,
+     "lufsI": -23.1,
+     "lufsM": -23.1,
+     "tp": -3.03,
+     "bytes": 6813
+    },
+    {
+     "file": "foley/step_soil_02.ogg",
+     "dur": 0.43,
+     "channels": 1,
+     "lufsI": -20.8,
+     "lufsM": -20.8,
+     "tp": -3.31,
+     "bytes": 6564
+    },
+    {
+     "file": "foley/step_soil_03.ogg",
+     "dur": 0.482,
+     "channels": 1,
+     "lufsI": -27,
+     "lufsM": -27,
+     "tp": -3.24,
+     "bytes": 7360
+    },
+    {
+     "file": "foley/step_soil_04.ogg",
+     "dur": 0.504,
+     "channels": 1,
+     "lufsI": -23,
+     "lufsM": -21.6,
+     "tp": -3.67,
+     "bytes": 7777
+    },
+    {
+     "file": "foley/step_soil_05.ogg",
+     "dur": 0.472,
+     "channels": 1,
+     "lufsI": -23.6,
+     "lufsM": -23.6,
+     "tp": -3.58,
+     "bytes": 7177
+    },
+    {
+     "file": "foley/step_soil_06.ogg",
+     "dur": 0.544,
+     "channels": 1,
+     "lufsI": -26.2,
+     "lufsM": -23.8,
+     "tp": -3.13,
+     "bytes": 7222
+    },
+    {
+     "file": "foley/step_soil_07.ogg",
+     "dur": 0.429,
+     "channels": 1,
+     "lufsI": -24.4,
+     "lufsM": -24.4,
+     "tp": -2.81,
+     "bytes": 6571
+    },
+    {
+     "file": "foley/step_soil_08.ogg",
+     "dur": 0.514,
+     "channels": 1,
+     "lufsI": -27.7,
+     "lufsM": -25.2,
+     "tp": -3.68,
+     "bytes": 7947
+    },
+    {
+     "file": "foley/step_soil_09.ogg",
+     "dur": 0.472,
+     "channels": 1,
+     "lufsI": -21.2,
+     "lufsM": -21.2,
+     "tp": -3.64,
+     "bytes": 7089
+    },
+    {
+     "file": "foley/step_soil_10.ogg",
+     "dur": 0.494,
+     "channels": 1,
+     "lufsI": -24.6,
+     "lufsM": -24.6,
+     "tp": -3.42,
+     "bytes": 7608
+    }
+   ]
+  },
+  "step.stone": {
+   "cat": "foley",
+   "decodeRate": 48000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:521590",
+    "fs:813622"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_stone_01.ogg",
+     "dur": 0.288,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.67,
+     "bytes": 4665
+    },
+    {
+     "file": "foley/step_stone_02.ogg",
+     "dur": 0.307,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.62,
+     "bytes": 4942
+    },
+    {
+     "file": "foley/step_stone_03.ogg",
+     "dur": 0.281,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.49,
+     "bytes": 4513
+    },
+    {
+     "file": "foley/step_stone_04.ogg",
+     "dur": 0.334,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.74,
+     "bytes": 5441
+    },
+    {
+     "file": "foley/step_stone_05.ogg",
+     "dur": 0.33,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.62,
+     "bytes": 5174
+    },
+    {
+     "file": "foley/step_stone_06.ogg",
+     "dur": 0.328,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.7,
+     "bytes": 5140
+    },
+    {
+     "file": "foley/step_stone_07.ogg",
+     "dur": 0.366,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.58,
+     "bytes": 5645
+    },
+    {
+     "file": "foley/step_stone_08.ogg",
+     "dur": 0.355,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.62,
+     "bytes": 5723
+    },
+    {
+     "file": "foley/step_stone_09.ogg",
+     "dur": 0.366,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.64,
+     "bytes": 5686
+    },
+    {
+     "file": "foley/step_stone_10.ogg",
+     "dur": 0.323,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.62,
+     "bytes": 5143
+    },
+    {
+     "file": "foley/step_stone_11.ogg",
+     "dur": 0.323,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.66,
+     "bytes": 5109
+    },
+    {
+     "file": "foley/step_stone_12.ogg",
+     "dur": 0.313,
+     "channels": 1,
+     "lufsI": null,
+     "lufsM": null,
+     "tp": -3.65,
+     "bytes": 4803
+    }
+   ]
+  },
+  "step.weight": {
+   "cat": "foley",
+   "decodeRate": 16000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "kenney_impact:impactSoft_heavy_000",
+    "kenney_impact:impactSoft_heavy_001",
+    "kenney_impact:impactSoft_heavy_002",
+    "kenney_impact:impactSoft_heavy_003",
+    "kenney_impact:impactSoft_heavy_004"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_weight_01.ogg",
+     "dur": 0.732,
+     "channels": 1,
+     "lufsI": -22.4,
+     "lufsM": -20,
+     "tp": -4.44,
+     "bytes": 10784
+    },
+    {
+     "file": "foley/step_weight_02.ogg",
+     "dur": 0.796,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -20,
+     "tp": -4.26,
+     "bytes": 11746
+    },
+    {
+     "file": "foley/step_weight_03.ogg",
+     "dur": 0.796,
+     "channels": 1,
+     "lufsI": -23.9,
+     "lufsM": -20,
+     "tp": -4.83,
+     "bytes": 11860
+    },
+    {
+     "file": "foley/step_weight_04.ogg",
+     "dur": 0.764,
+     "channels": 1,
+     "lufsI": -23.8,
+     "lufsM": -20,
+     "tp": -4.39,
+     "bytes": 11174
+    },
+    {
+     "file": "foley/step_weight_05.ogg",
+     "dur": 0.699,
+     "channels": 1,
+     "lufsI": -22.4,
+     "lufsM": -20,
+     "tp": -4.48,
+     "bytes": 10337
+    }
+   ]
+  },
+  "step.wet": {
+   "cat": "foley",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:548384"
+   ],
+   "variants": [
+    {
+     "file": "foley/step_wet_01.ogg",
+     "dur": 0.518,
+     "channels": 1,
+     "lufsI": -27,
+     "lufsM": -24.7,
+     "tp": -3.89,
+     "bytes": 6663
+    },
+    {
+     "file": "foley/step_wet_02.ogg",
+     "dur": 0.403,
+     "channels": 1,
+     "lufsI": -26,
+     "lufsM": -26,
+     "tp": -3.76,
+     "bytes": 6201
+    },
+    {
+     "file": "foley/step_wet_03.ogg",
+     "dur": 0.483,
+     "channels": 1,
+     "lufsI": -23.4,
+     "lufsM": -23.4,
+     "tp": -3.1,
+     "bytes": 7458
+    },
+    {
+     "file": "foley/step_wet_04.ogg",
+     "dur": 0.444,
+     "channels": 1,
+     "lufsI": -21.8,
+     "lufsM": -21.8,
+     "tp": -3.17,
+     "bytes": 6843
+    },
+    {
+     "file": "foley/step_wet_05.ogg",
+     "dur": 0.464,
+     "channels": 1,
+     "lufsI": -25.1,
+     "lufsM": -25.1,
+     "tp": -3.58,
+     "bytes": 7133
+    }
+   ]
+  },
+  "thunder.close": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:567945",
+    "fs:795412"
+   ],
+   "variants": [
+    {
+     "file": "weather/thunder_close_01.ogg",
+     "dur": 10,
+     "channels": 2,
+     "lufsI": -29.3,
+     "lufsM": -20,
+     "tp": -8.93,
+     "bytes": 202566
+    },
+    {
+     "file": "weather/thunder_close_02.ogg",
+     "dur": 10,
+     "channels": 2,
+     "lufsI": -26.5,
+     "lufsM": -19.9,
+     "tp": -6.7,
+     "bytes": 202560
+    }
+   ]
+  },
+  "thunder.far": {
+   "cat": "weather",
+   "decodeRate": 16000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:581232",
+    "fs:572443"
+   ],
+   "variants": [
+    {
+     "file": "weather/thunder_far_01.ogg",
+     "dur": 9,
+     "channels": 1,
+     "lufsI": -26.2,
+     "lufsM": -20,
+     "tp": -7.44,
+     "bytes": 128163
+    },
+    {
+     "file": "weather/thunder_far_02.ogg",
+     "dur": 9,
+     "channels": 1,
+     "lufsI": -24.9,
+     "lufsM": -20,
+     "tp": -6.32,
+     "bytes": 128159
+    },
+    {
+     "file": "weather/thunder_far_03.ogg",
+     "dur": 9,
+     "channels": 1,
+     "lufsI": -27.2,
+     "lufsM": -20,
+     "tp": -5.62,
+     "bytes": 128162
+    },
+    {
+     "file": "weather/thunder_far_04.ogg",
+     "dur": 9,
+     "channels": 1,
+     "lufsI": -27.9,
+     "lufsM": -20,
+     "tp": -7.24,
+     "bytes": 128046
+    },
+    {
+     "file": "weather/thunder_far_05.ogg",
+     "dur": 9,
+     "channels": 1,
+     "lufsI": -25.2,
+     "lufsM": -20,
+     "tp": -7.61,
+     "bytes": 128127
+    }
+   ]
+  },
+  "thunder.mid": {
+   "cat": "weather",
+   "decodeRate": 24000,
+   "loop": false,
+   "level": [
+    "M",
+    -20
+   ],
+   "sources": [
+    "fs:744723",
+    "fs:361772"
+   ],
+   "variants": [
+    {
+     "file": "weather/thunder_mid_01.ogg",
+     "dur": 12,
+     "channels": 1,
+     "lufsI": -29.6,
+     "lufsM": -20,
+     "tp": -6.81,
+     "bytes": 170700
+    },
+    {
+     "file": "weather/thunder_mid_02.ogg",
+     "dur": 12,
+     "channels": 1,
+     "lufsI": -27.7,
+     "lufsM": -20.3,
+     "tp": -3.61,
+     "bytes": 170748
+    }
+   ]
+  },
+  "ui.carve": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:718918"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_carve_01.ogg",
+     "dur": 2.443,
+     "channels": 1,
+     "lufsI": -25.8,
+     "lufsM": -24,
+     "tp": -8.28,
+     "bytes": 34727
+    },
+    {
+     "file": "ui/ui_carve_02.ogg",
+     "dur": 2.483,
+     "channels": 1,
+     "lufsI": -26,
+     "lufsM": -24,
+     "tp": -7.13,
+     "bytes": 35006
+    }
+   ]
+  },
+  "ui.close": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -25
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_close_01.ogg",
+     "dur": 1.74,
+     "channels": 1,
+     "lufsI": -29.3,
+     "lufsM": -25,
+     "tp": -13.94,
+     "bytes": 25354
+    },
+    {
+     "file": "ui/ui_close_02.ogg",
+     "dur": 1.74,
+     "channels": 1,
+     "lufsI": -29.7,
+     "lufsM": -25,
+     "tp": -14.05,
+     "bytes": 25354
+    }
+   ]
+  },
+  "ui.clue": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -23
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337",
+    "fs:826131"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_clue_01.ogg",
+     "dur": 3.2,
+     "channels": 1,
+     "lufsI": -27,
+     "lufsM": -23,
+     "tp": -16.44,
+     "bytes": 46067
+    },
+    {
+     "file": "ui/ui_clue_02.ogg",
+     "dur": 3.2,
+     "channels": 1,
+     "lufsI": -27.1,
+     "lufsM": -23,
+     "tp": -14.25,
+     "bytes": 46067
+    }
+   ]
+  },
+  "ui.milestone": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_milestone_01.ogg",
+     "dur": 3.6,
+     "channels": 1,
+     "lufsI": -25.2,
+     "lufsM": -21,
+     "tp": -10.97,
+     "bytes": 51519
+    },
+    {
+     "file": "ui/ui_milestone_02.ogg",
+     "dur": 3.6,
+     "channels": 1,
+     "lufsI": -24.7,
+     "lufsM": -21,
+     "tp": -12.28,
+     "bytes": 51686
+    }
+   ]
+  },
+  "ui.open": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -24
+   ],
+   "sources": [
+    "fs:858147",
+    "fs:423799"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_open_01.ogg",
+     "dur": 3,
+     "channels": 1,
+     "lufsI": -28.5,
+     "lufsM": -24,
+     "tp": -12.27,
+     "bytes": 42466
+    },
+    {
+     "file": "ui/ui_open_02.ogg",
+     "dur": 3,
+     "channels": 1,
+     "lufsI": -28.7,
+     "lufsM": -24,
+     "tp": -15.08,
+     "bytes": 42473
+    }
+   ]
+  },
+  "ui.payoff": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -21
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_payoff_01.ogg",
+     "dur": 3,
+     "channels": 1,
+     "lufsI": -26.4,
+     "lufsM": -21,
+     "tp": -11.02,
+     "bytes": 43237
+    },
+    {
+     "file": "ui/ui_payoff_02.ogg",
+     "dur": 3,
+     "channels": 1,
+     "lufsI": -26.3,
+     "lufsM": -21,
+     "tp": -10.38,
+     "bytes": 43237
+    }
+   ]
+  },
+  "ui.surprise": {
+   "cat": "ui",
+   "decodeRate": 32000,
+   "loop": false,
+   "level": [
+    "M",
+    -23
+   ],
+   "sources": [
+    "fs:858114",
+    "fs:858147",
+    "fs:437337",
+    "fs:486234"
+   ],
+   "variants": [
+    {
+     "file": "ui/ui_surprise_01.ogg",
+     "dur": 2.145,
+     "channels": 1,
+     "lufsI": -27.8,
+     "lufsM": -23,
+     "tp": -13.11,
+     "bytes": 30876
+    },
+    {
+     "file": "ui/ui_surprise_02.ogg",
+     "dur": 2.145,
+     "channels": 1,
+     "lufsI": -27.1,
+     "lufsM": -23,
+     "tp": -12.77,
+     "bytes": 30893
+    }
+   ]
+  }
+ },
+ "version": 1,
+ "generated": "2026-10-23T15:52:28.377Z"
+}

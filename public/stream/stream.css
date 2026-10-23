@@ -1,0 +1,806 @@
+/* A restrained broadcast overlay: dark translucent glass, hairline borders, one radius scale,
+   and two accents - spectral green for the Creature, warm amber for supporters and gifts.
+   Sizes are in em of the stage, whose font size scales with the frame (40px on a 1080-wide
+   frame). Nothing is smaller than 0.76em (about 30px at 1080x1920, roughly 11pt on a phone).
+   Where things sit comes from the safe-area profile (safe-areas.js) through --info-* and --cap-*. */
+:root {
+  --glass: rgb(14 16 22 / 0.72);
+  --glass-strong: rgb(12 14 19 / 0.84);
+  --hairline: rgb(255 255 255 / 0.1);
+  --text: #f3f2ef;
+  --text-dim: #b4b9c2;
+  --spectral: #9be8b4;
+  --amber: #f2b35e;
+  --radius: 0.55em;
+  --shadow: 0 0.35em 1.4em rgb(0 0 0 / 0.45);
+  --ease: cubic-bezier(0.22, 0.8, 0.26, 1);
+  --font: "Inter", "SF Pro Text", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+#stage {
+  position: relative;
+  overflow: hidden;
+  background: #050407;
+  color: var(--text);
+  font-family: var(--font);
+}
+
+#stage > canvas {
+  display: block;
+}
+
+canvas.fx {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  backdrop-filter: blur(14px) saturate(1.15);
+}
+
+/* The info zone: everything about who and what, in one block just under TikTok's top bar.
+   Row 1: the AI label and the top supporter. Row 2: notices and the storm meter. Below: the
+   gift alert, a title card or the audience card, each only while it is on screen. */
+.info-zone {
+  position: absolute;
+  left: var(--info-x, 4.5%);
+  top: var(--info-y, 11.8%);
+  width: var(--info-w, 91%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  pointer-events: none;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.6em;
+  min-width: 0;
+}
+
+.info-row.r1 {
+  min-height: 1.75em;
+}
+
+.info-row.r2 {
+  align-items: center;
+  min-height: 1.3em;
+}
+
+.ai-label {
+  flex: none;
+  padding: 0.28em 0.75em;
+  border-radius: 2em;
+  background: rgb(10 12 16 / 0.62);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  font: 600 0.76em/1.2 var(--font);
+  letter-spacing: 0.02em;
+}
+
+.avatar {
+  flex: none;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50%;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #fff;
+  box-shadow: 0 0 0 1px var(--hairline);
+}
+
+.top-gifter {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  max-width: 66%;
+  min-width: 0;
+  padding: 0.22em 0.85em 0.22em 0.25em;
+  border-radius: 2em;
+  font: 0.9em/1.14 var(--font);
+  opacity: 0;
+  transform: translateY(-0.3em);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+
+.top-gifter.show {
+  opacity: 1;
+  transform: none;
+}
+
+.hide-top-gifter .top-gifter {
+  display: none;
+}
+
+.top-gifter .who {
+  min-width: 0;
+}
+
+.top-gifter .label {
+  color: var(--amber);
+  font-size: 0.84em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.top-gifter .name,
+.gift-banner .name {
+  font-weight: 650;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-gifter .nameline {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4em;
+  min-width: 0;
+}
+
+.top-gifter .amount {
+  flex: none;
+  color: var(--amber);
+  font-size: 0.9em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.toasts {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2em;
+}
+
+.toast {
+  max-width: 100%;
+  padding: 0.22em 0.7em;
+  border-radius: 2em;
+  background: rgb(10 12 16 / 0.66);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  font: 500 0.8em/1.2 var(--font);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  animation: toast 3.2s var(--ease) forwards;
+}
+
+@keyframes toast {
+  0% { opacity: 0; transform: translateY(-0.3em); }
+  10% { opacity: 1; transform: none; }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* The storm meter: coins toward the milestone storm, a real value. */
+.meter {
+  flex: none;
+  width: 36%;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease);
+}
+
+.meter.show {
+  opacity: 1;
+}
+
+.meter-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+  font: 600 0.76em/1.2 var(--font);
+  color: var(--text-dim);
+  margin-bottom: 0.25em;
+}
+
+.meter-label .pct {
+  color: var(--spectral);
+  font-variant-numeric: tabular-nums;
+}
+
+.meter-track {
+  height: 0.28em;
+  border-radius: 1em;
+  background: rgb(255 255 255 / 0.14);
+  overflow: hidden;
+}
+
+.meter-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 1em;
+  background: linear-gradient(90deg, #5fcf8a, var(--spectral));
+  transition: width 0.8s var(--ease);
+}
+
+.meter.hot .meter-fill {
+  box-shadow: 0 0 0.6em rgb(155 232 180 / 0.6);
+}
+
+/* Cards that take room in the info zone only while they are on screen, centred in the frame. */
+.info-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.slot-item {
+  display: none;
+}
+
+/* Wide cards span the block; the gift alert and the queue line sit centred at their own width. */
+.slot-item.event-card,
+.slot-item.gift-guide.full {
+  align-self: stretch;
+}
+
+/* A card that gave way because the block would have grown over his face (overlay.js fitInfo). */
+.slot-item.show.squeezed {
+  display: none;
+}
+
+/* The vote down to its header line (question and time left) while a gift alert needs the room. */
+.event-card.slim .ec-opts,
+.event-card.slim .ec-wish {
+  display: none;
+}
+
+.slot-item.show {
+  display: flex;
+  animation: slot-in 0.38s var(--ease) both;
+}
+
+.slot-item.out {
+  animation: slot-out 0.26s ease forwards;
+}
+
+@keyframes slot-in {
+  from { opacity: 0; transform: translateY(-0.35em); }
+}
+
+@keyframes slot-out {
+  to { opacity: 0; transform: translateY(-0.2em); }
+}
+
+/* Gift alerts: amber, compact, one at a time from a short queue. */
+.gift-banner {
+  align-self: center;
+  align-items: center;
+  gap: 0.5em;
+  max-width: 100%;
+  padding: 0.3em 0.9em 0.3em 0.35em;
+  border-radius: 2em;
+  border-color: rgb(242 179 94 / 0.38);
+  font: 0.9em/1.2 var(--font);
+}
+
+.gift-banner .body {
+  min-width: 0;
+}
+
+.gift-banner .what {
+  color: var(--amber);
+  font-size: 0.84em;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gift-banner img.gift {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.gift-banner .count {
+  font: 700 1.2em/1 var(--font);
+  color: var(--amber);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The queue line: what he is performing for whom, and how many are waiting. Only while non-empty. */
+.event-status {
+  align-self: flex-start;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.7em;
+  max-width: 100%;
+  padding: 0.2em 0.8em;
+  border-radius: 1.2em;
+  border-color: rgb(155 232 180 / 0.3);
+  font: 600 0.8em/1.25 var(--font);
+}
+
+.es-label {
+  color: var(--spectral);
+}
+
+.es-meta {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+/* The Halloween events guide: a compact resting version, and a fuller one in quiet moments that
+   takes the notices row's place while it is up. Both are secondary to him: quiet, translucent. */
+.gift-guide {
+  flex-direction: column;
+  gap: 0.08em;
+  padding: 0.22em 0.8em 0.26em;
+  border-color: rgb(242 179 94 / 0.22);
+  font-size: 0.76em;
+  line-height: 1.12;
+}
+
+.gift-guide.compact {
+  align-self: flex-start;
+  max-width: 100%;
+  border-radius: 0.9em;
+  background: rgb(14 16 22 / 0.58);
+}
+
+.gift-guide.full {
+  align-self: stretch;
+}
+
+.guide-full .info-row.r2 {
+  display: none;
+}
+
+.gg-line,
+.gg-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7em;
+  white-space: nowrap;
+}
+
+.gg-head {
+  justify-content: space-between;
+}
+
+.gg-title {
+  color: var(--amber);
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+.gg-steps {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.gg-unit,
+.gg-dim {
+  color: var(--text-dim);
+}
+
+.gg-note {
+  color: var(--text);
+}
+
+.gg-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: repeat(var(--rows, 3), auto);
+  justify-content: space-between;
+  gap: 0.1em 0.4em;
+  margin: 0.1em 0;
+}
+
+.gg-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6em;
+  padding: 0.04em 0.45em;
+  border-radius: 0.35em;
+  background: rgb(255 255 255 / 0.06);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.gg-name {
+  min-width: 0;
+  color: var(--text);
+}
+
+.gg-range {
+  flex: none;
+  color: var(--amber);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.gg-row.off {
+  opacity: 0.5;
+}
+
+.gg-row.off .gg-range {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+/* Big moments: a short title card, then back to the show. */
+.announce {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.4em 0.9em 0.45em;
+}
+
+.announce-title {
+  font: 800 0.95em/1.1 var(--font);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #eafff0;
+  text-shadow: 0 0 0.5em rgb(155 232 180 / 0.45);
+}
+
+.announce.gold {
+  border-color: rgb(242 179 94 / 0.4);
+}
+
+.announce.gold .announce-title {
+  color: #fff3dc;
+  text-shadow: 0 0 0.5em rgb(242 179 94 / 0.5);
+}
+
+.announce-sub {
+  margin-top: 0.2em;
+  font: 500 0.78em/1.25 var(--font);
+  color: var(--text-dim);
+}
+
+.announcing .event-card {
+  display: none;
+}
+
+/* The audience card: a vote with live percentages, or a wish. */
+.event-card {
+  flex-direction: column;
+  gap: 0.32em;
+  padding: 0.4em 0.5em 0.5em;
+  border-color: rgb(155 232 180 / 0.28);
+}
+
+.ec-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6em;
+  padding: 0 0.2em;
+  font-size: 0.82em;
+  line-height: 1.2;
+}
+
+.ec-title {
+  min-width: 0;
+  font-weight: 650;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ec-meta {
+  flex: none;
+  color: var(--amber);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.event-card.closed .ec-meta {
+  color: var(--spectral);
+}
+
+.ec-opts {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr));
+  gap: 0.35em;
+}
+
+.ec-opt {
+  min-width: 0;
+  overflow: hidden;
+  padding: 0.35em 0.45em 0.4em;
+  border-radius: 0.45em;
+  background: rgb(255 255 255 / 0.07);
+  border: 1px solid var(--hairline);
+}
+
+.ec-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35em;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.ec-track {
+  margin-top: 0.4em;
+  height: 0.28em;
+  border-radius: 1em;
+  background: rgb(255 255 255 / 0.14);
+  overflow: hidden;
+}
+
+.ec-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 1em;
+  background: linear-gradient(90deg, #5fcf8a, var(--spectral));
+  transition: width 0.6s var(--ease);
+}
+
+.ec-n {
+  flex: none;
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.ec-label {
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ec-pct {
+  flex: none;
+  min-width: 2.2em;
+  font-size: 0.95em;
+  text-align: right;
+  color: var(--spectral);
+  font-variant-numeric: tabular-nums;
+}
+
+.event-card.closed .ec-opt:not(.win) {
+  opacity: 0.55;
+}
+
+.ec-opt.win {
+  border-color: rgb(155 232 180 / 0.7);
+  box-shadow: 0 0 0.7em rgb(155 232 180 / 0.35);
+}
+
+.ec-wish {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6em;
+  padding: 0 0.2em;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.ec-count {
+  flex: none;
+  color: var(--spectral);
+  font-variant-numeric: tabular-nums;
+}
+
+/* His speech: one dialogue panel above TikTok's comments, a phrase at a time, never more than
+   three lines (two when the profile leaves room for no more). The top edge stays put; the panel
+   is at least two lines tall so it does not pulse between short phrases. */
+.caption {
+  position: absolute;
+  left: var(--cap-x, 4.5%);
+  top: var(--cap-y, 55%);
+  width: var(--cap-w, 77%);
+  box-sizing: border-box;
+  min-height: 4.44em;
+  padding: 0.5em 0.85em 0.55em;
+  background: var(--glass-strong);
+  opacity: 0;
+  transform: translateY(0.3em);
+  transition: opacity 0.34s var(--ease), transform 0.34s var(--ease);
+}
+
+.caption.show {
+  opacity: 1;
+  transform: none;
+}
+
+.caption-name {
+  font: 650 0.76em/1.2 var(--font);
+  letter-spacing: 0.02em;
+  color: var(--spectral);
+  margin-bottom: 0.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.caption-text {
+  font: 600 0.9em/1.3 var(--font);
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: var(--cap-lines, 3);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: normal;
+  transition: opacity 0.18s linear;
+}
+
+.caption-text.swap {
+  opacity: 0;
+}
+
+/* The viewer's message, read out before he answers: their name in place of his, the text a
+   little lighter, and an English line under messages in other languages. */
+.caption.viewer .caption-name {
+  color: var(--text-dim);
+}
+
+.caption.viewer .caption-text {
+  font-weight: 500;
+}
+
+.caption-note {
+  margin-top: 0.3em;
+  font: italic 500 0.76em/1.3 var(--font);
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.caption-note:empty {
+  display: none;
+}
+
+/* Hidden copies used to count lines before a caption is shown. */
+.caption .caption-measure {
+  position: absolute;
+  left: 0.85em;
+  right: calc(0.85em + 2.5%);
+  top: 0;
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+  white-space: normal;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+  transition: none;
+  animation: none;
+  margin: 0;
+  font-style: normal;
+}
+
+.caption.handover .caption-name,
+.caption.handover .caption-text:not(.caption-measure),
+.caption.handover .caption-note:not(.caption-measure) {
+  animation: handover 0.32s var(--ease);
+}
+
+@keyframes handover {
+  from {
+    opacity: 0;
+    transform: translateY(0.12em);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .top-gifter, .caption, .meter-fill, .ec-fill { transition-duration: 0.01s; transform: none; }
+  .toast { animation-duration: 0.01s; animation-fill-mode: both; opacity: 1; }
+  .slot-item.show, .slot-item.out { animation-duration: 0.01s; }
+}
+
+/* Layout check: only drawn when the operator turns it on (panel, or ?layoutcheck=1). */
+.layout-check {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.lc-box {
+  position: absolute;
+  box-sizing: border-box;
+  border: 2px dashed;
+  border-radius: 0.2em;
+}
+
+.lc-label {
+  position: absolute;
+  left: 0.25em;
+  top: 0.2em;
+  max-width: calc(100% - 0.5em);
+  padding: 0.05em 0.4em;
+  border-radius: 0.3em;
+  background: rgb(0 0 0 / 0.62);
+  color: #fff;
+  font: 650 0.76em/1.2 var(--font);
+}
+
+.lc-region .lc-label {
+  top: auto;
+  bottom: 0.2em;
+}
+
+.lc-tiktok {
+  border-color: #ff5d7a;
+  background: repeating-linear-gradient(135deg, rgb(255 93 122 / 0.2) 0 0.6em, rgb(255 93 122 / 0.08) 0.6em 1.2em);
+}
+
+.lc-face { border-color: #6ee7a0; background: rgb(110 231 160 / 0.16); }
+.lc-hands { border-color: #5cc8ff; background: rgb(92 200 255 / 0.16); }
+.lc-captions { border-color: #ffc857; background: rgb(255 200 87 / 0.16); }
+.lc-info { border-color: #c4a1ff; background: rgb(196 161 255 / 0.16); }
+
+.lc-note {
+  position: absolute;
+  left: 50%;
+  top: 78%;
+  transform: translateX(-50%);
+  width: 74%;
+  padding: 0.35em 0.6em;
+  border-radius: 0.4em;
+  background: rgb(0 0 0 / 0.72);
+  color: #fff;
+  font: 600 0.76em/1.3 var(--font);
+  text-align: center;
+}
+
+.stats-hud {
+  position: absolute;
+  left: 0.5em;
+  bottom: 0.5em;
+  margin: 0;
+  padding: 0.3em 0.5em;
+  border-radius: 0.3em;
+  background: rgb(0 0 0 / 0.6);
+  color: #9f9;
+  font: 0.36em/1.2 ui-monospace, Consolas, monospace;
+  pointer-events: none;
+}
+
+#unlock {
+  position: fixed;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.8em 1.4em;
+  border: 1px solid var(--hairline);
+  border-radius: 2em;
+  background: #111318;
+  color: var(--text);
+  font: 600 16px var(--font);
+  cursor: pointer;
+}

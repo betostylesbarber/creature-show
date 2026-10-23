@@ -1,0 +1,25 @@
+{
+  "name": "live-character-show",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local AI character that talks to TikTok LIVE chat and reacts to gifts.",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "mcp": "node src/mcp-bridge.js",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.1.0",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "kokoro-js": "1.2.1",
+    "three": "0.186.1",
+    "three-mesh-bvh": "0.9.15",
+    "tiktok-live-connector": "2.5.0",
+    "ws": "8.22.0",
+    "zod": "4.6.7"
+  }
+}
